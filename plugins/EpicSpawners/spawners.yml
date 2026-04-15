@@ -1,0 +1,1491 @@
+Spawners:
+  CREEPER:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - CREEPER
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Creeper
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  SKELETON:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - SKELETON
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Skeleton
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  SPIDER:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - SPIDER
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Spider
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  GIANT:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - GIANT
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Giant
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  ZOMBIE:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - ZOMBIE
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Zombie
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  SLIME:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - SLIME
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Slime
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: SWAMP
+          Height: 50:70
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  GHAST:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - GHAST
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Ghast
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  PIG_ZOMBIE:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - PIG_ZOMBIE
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Pig Zombie
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  ENDERMAN:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - ENDERMAN
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Enderman
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  CAVE_SPIDER:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - CAVE_SPIDER
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Cave Spider
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  SILVERFISH:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - SILVERFISH
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Silverfish
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  BLAZE:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - BLAZE
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Blaze
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  MAGMA_CUBE:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - MAGMA_CUBE
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Magma Cube
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  ENDER_DRAGON:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - ENDER_DRAGON
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Ender Dragon
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  WITHER:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - WITHER
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Wither
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  BAT:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - BAT
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Bat
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  WITCH:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - WITCH
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Witch
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  ENDERMITE:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - ENDERMITE
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Endermite
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  GUARDIAN:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - GUARDIAN
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Guardian
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: DARK
+          Storm Only: false
+        Display-Item: AIR
+  PIG:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - PIG
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Pig
+        Spawn-Blocks:
+        - GRASS_BLOCK
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  SHEEP:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - SHEEP
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Sheep
+        Spawn-Blocks:
+        - GRASS_BLOCK
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  COW:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - COW
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Cow
+        Spawn-Blocks:
+        - GRASS_BLOCK
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  CHICKEN:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - CHICKEN
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Chicken
+        Spawn-Blocks:
+        - GRASS_BLOCK
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  SQUID:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - SQUID
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Squid
+        Spawn-Blocks:
+        - WATER
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  WOLF:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - WOLF
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Wolf
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  MUSHROOM_COW:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - MUSHROOM_COW
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Mushroom Cow
+        Spawn-Blocks:
+        - MYCELIUM
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  SNOWMAN:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - SNOWMAN
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Snowman
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  OCELOT:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - OCELOT
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Ocelot
+        Spawn-Blocks:
+        - GRASS_BLOCK
+        - JUNGLE_LEAVES
+        - ACACIA_LEAVES
+        - BIRCH_LEAVES
+        - DARK_OAK_LEAVES
+        - OAK_LEAVES
+        - SPRUCE_LEAVES
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  IRON_GOLEM:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - IRON_GOLEM
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Iron Golem
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  HORSE:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - HORSE
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Horse
+        Spawn-Blocks:
+        - GRASS_BLOCK
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  RABBIT:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - RABBIT
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Rabbit
+        Spawn-Blocks:
+        - GRASS_BLOCK
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  VILLAGER:
+    Active: true
+    Custom: false
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities:
+        - VILLAGER
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Villager
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 10.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR
+  Custom 1:
+    Active: true
+    Custom: true
+    Kill-Drop-Goal: 0
+    Kill-Drop-Chance: 0.0
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Tiers:
+      Tier_1:
+        Entities: []
+        Blocks: []
+        Items: []
+        Command: []
+        Display-Name: Tier_1
+        Spawn-Blocks:
+        - AIR
+        Spawn-On-Fire: false
+        Cost-Economy: 1000.0
+        Cost-Levels: 2
+        Tick-Rate: 800:200
+        Pickup-Cost: 0.0
+        Pick-Damage: 1
+        Spawn-Effect: HALO
+        Spawn-Effect-Particle: REDSTONE
+        Entity-Spawn-Particle: SMOKE
+        Spawner-Spawn-Particle: FIRE
+        Particle-Amount: NORMAL
+        Particle-Effect-Boosted-Only: true
+        Conditions:
+          Required Player Distance And Amount: '16:1'
+          Max Entities Around Spawner: 6
+          Biomes: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, BIRCH_FOREST, FROZEN_OCEAN, WINDSWEPT_HILLS, FLOWER_FOREST, ERODED_BADLANDS, SAVANNA_ROCK, SNOWY_TAIGA, BIRCH_FOREST_HILLS_MOUNTAINS, TAIGA_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, GIANT_SPRUCE_TAIGA, JUNGLE, ICE_SPIKES, OCEAN, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SNOWY_PLAINS, SWAMP_HILLS, MODIFIED_JUNGLE_EDGE, WINDSWEPT_SAVANNA, STONY_SHORE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, MESA_PLATEAU_MOUNTAINS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, SMALL_MOUNTAINS, TAIGA_HILLS, MODIFIED_JUNGLE, BADLANDS, GIANT_TREE_TAIGA_HILLS, SHATTERED_SAVANNA_PLATEAU, GIANT_SPRUCE_TAIGA_HILLS, MUSHROOM_FIELDS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, WOODED_HILLS, MOUNTAIN_EDGE, TAIGA, SNOWY_TAIGA_MOUNTAINS, DESERT, SNOWY_BEACH, FOREST, JUNGLE_HILLS, MODIFIED_GRAVELLY_MOUNTAINS, TALL_BIRCH_FOREST, SWAMP, DESERT_HILLS
+          Height: 0:265
+          Light: BOTH
+          Storm Only: false
+        Display-Item: AIR

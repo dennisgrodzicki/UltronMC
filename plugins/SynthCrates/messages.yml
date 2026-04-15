@@ -1,0 +1,45 @@
+Prefix: '&6&lSYNTH CRATES &8›› &f'
+Help:
+- '&8&m-----------&8&l[ &6Synth Crates &8&l]&8&m-----------'
+- '&8›› &6/synthcrates editor &7- Open in-game crate editor.'
+- '&8›› &6/synthcrates menu <menu_id> &7- Open crate menu.'
+- '&8›› &6/synthcrates give <player> <crate> <amount> &7- Give a crate to player'
+- '&8›› &6/synthcrates givekey <player> <crate> <amount> &7- Give a crate key to player'
+- '&8›› &6/synthcrates info &7- About the plugin'
+- '&8›› &6/synthcrates reload &7- Reload the plugin'
+Crate:
+  NotKey: This key is not requires key to open
+  NotFound: Crate &c%s% &fnot found.
+  GetKey: You recieved &6%s% &fkey(s) for crate &6%crate%
+  GetCrate: You recieved &6%s% &famount of &6%crate% &fcrate
+  NoKey: '&cYou don''t have a key for this crate!'
+  Cancelled: '&c&lCancelled.'
+  OpenDelay: '&f&lOpening a crate...'
+  Open: 'You have open a crate and got the reward: %reward%'
+  OpenWait: You're already opening a crate, please wait.
+  Cooldown: 'Crate is on a cooldown. Time left: &6%s'
+  NoMoney: You don't have enough money to open this crate!
+  Preview:
+    Title: '&4&lCrate Preview '
+    Next: '&aNext >'
+    Back: '&6< Back'
+    Exit: '&c&lEXIT'
+Time:
+  Sec: sec.
+  Min: min.
+  Hour: h.
+Menu:
+  Invalid: Menu &c'%s%' &fnot found!
+  Open: 'You open a crate menu: ''%s%'''
+Command:
+  Usage:
+    Give: '&fUsage: &6/synthcrates give <player> <crate> <amount>'
+    GiveKey: '&fUsage: &6/synthcrates givekey <player> <crate> <amount>'
+    Menu: '&fUsage: &6/synthcrates menu <menu_id>'
+Admin:
+  UnableToGive: This crate can not be given as item!
+  CrateGiven: You gave &6%s% &famount of &6%crate% &fcrate to player &6%p%
+  KeyGiven: You gave &6%s% &famount of &6%crate% &fcrate keys to player &6%p%
+Other:
+  NoPerm: You don't have permissions to do that!
+  NoPlayer: Player not found

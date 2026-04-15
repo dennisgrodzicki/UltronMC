@@ -1,0 +1,12 @@
+Crates:
+  Regular:
+    Item Amount: 3
+    Amount overrides:
+    - Tools:2
+    Amount of kit received: 1
+  Ultra:
+    Item Amount: -1
+    Amount of kit received: 1
+  Insane:
+    Item Amount: -1
+    Amount of kit received: 2

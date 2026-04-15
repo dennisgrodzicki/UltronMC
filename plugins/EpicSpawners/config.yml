@@ -1,0 +1,231 @@
+Main:
+
+  # The maximum stack size a spawner can be stacked to.
+  Spawner Max Stack: 100
+
+  # The text displayed in the hologram positioned above every spawner.
+  Spawner Name Format: '&4{TYPE} &fSpawner [&c{AMT}x]'
+
+  # Spawners placed next to each other within this radius will automatically
+  # combine with each other.
+  Force Combine Radius: 0
+
+  # What should be the maximum amount of placed spawners in a chunk?
+  # Setting this to -1 will disable the function.
+  Max Spawners Per Chunk: -1
+
+  # Prevent spawners from being placed next to each other within the specified radius.
+  Deny Place On Force Combine: false
+
+  # The radius checked around a spawner before spawning entities.
+  # By default this is used to make sure there are no more than 7 entities
+  # around any single spawner.
+  Radius To Search Around Spawners: 8x4x8
+
+  # Toggle an alerting chat message after triggered by placing or breaking a spawner.
+  Alerts On Place And Break: true
+
+  # Toggle ability to receive a stacked spawner when breaking a spawner while sneaking.
+  Sneak To Receive A Stacked Spawner: true
+
+  # Toggle holograms showing above spawners.
+  Spawners Have Holograms: true
+
+  # Should natural mob spawners drop upon being broken?
+  Only Drop Placed Spawner: false
+
+  # Should map generated spawners charge a price in order to be broken?
+  # You can configure the cost for each spawner type in the Spawners.yml.
+  Only Charge Natural Spawners: false
+
+  # The tick rate in which spawners will attempt to spawn.
+  # Making this smaller or larger will not effect a spawners spawn rate as
+  # this value only effects the frequency in which a spawn attempt is triggered.
+  Custom Spawner Tick Rate: 10
+
+  # Toggles various sound effects used throughout the plugin.
+  Sounds Enabled: true
+
+  # Should a spawners hologram display its tier if it's tier one?
+  Display Tier In Spawner Title If Tier 1: true
+
+  # Should spawners of different mob types be stackable into a single spawner?
+  OmniSpawners Enabled: false
+
+  # Ability to change mob spawner type with spawn eggs.
+  Convert Spawners With Eggs: false
+
+  # Can spawners be upgraded with money?
+  Upgrade With Economy: true
+
+  # Can spawners be upgraded with Levels?
+  Upgrade With Levels: false
+
+  # Prevent water from flowing next to or on top of a spawner within the here declared radius.
+  # Set to 0 to disable.
+  Spawner Repel Liquid Radius: 1
+
+  # Does redstone power disable a spawner?
+  Redstone Power Deactivates Spawners: false
+
+  # should the button be visible in each spawners overview GUI.
+  Display Help Button In Spawner Overview: true
+
+  # Should spawners not break when blown up?
+  Prevent Spawners From Exploding: false
+
+  # Should broken spawners be added directly to the players inventory?
+  # Alternatively they will drop to the ground?
+  Add Spawners To Inventory On Drop: true
+
+  # Should particles be shown around spawners?
+  Show Particles: true
+
+  # The name of the particle shown when upgrading a spawner.
+  Upgrade Particle Type: SPELL_WITCH
+
+  # After every spawner successfully spawns, a new delay is added to it.
+  # That delay is different for every spawner type and can be configured in the Spawners.yml
+  # The number configured here is then added to that delay.
+  Extra Ticks Added To Each Spawn: 0
+
+  # The maximum amount of spawners a player can place. Set to -1 to allow unlimited
+  # spawner placement.
+  Max Spawners Per Player: -1
+
+  # Should the previous mob of the spawner be given as an egg when changing the spawner's mob?
+  Give Previous Mob as Egg when replacing mob: true
+
+  # The amount of time in between saving to file.
+  # This is purely a safety function to prevent against unplanned crashes or
+  # restarts. With that said it is advised to keep this enabled.
+  # If however you enjoy living on the edge, feel free to turn it off.
+  Auto Save Interval In Seconds: 15
+
+  # Should natural spawners be disabled?
+  Disable Natural Spawners: false
+
+  # If enabled mobs spawned by spawners will not move or attack.
+  Nerf Spawner Mobs: true
+  Equations:
+
+    # The equation that defines the amount of mobs a spawner will spawn each time it is triggered.
+    # This is ran once for each spawner in the stack then summed up after. You may use the variable {STACK_SIZE}
+    # or {RAND} If you like. For more information about how to make equations for this option look up the
+    # Java ScriptEngine.
+    Mobs Spawned Per Single Spawn: '{RAND}'
+
+    # This value depicts the variable {RAND} in equations used by this plugin
+    # It generates a random number between (by default) 1 and 4.
+    Random Amount Variable: '1:4'
+
+  # Should the max entity count around spawners be
+  # ignored on their first spawn?
+  Ignore Max On First Spawn: false
+
+  # Should spawners without valid values be removed?
+  # This may need to be disabled for compatibility that use
+  # empty spawners for custom blocks.
+  Remove Corrupted Spawners: true
+
+  # Which economy plugin should be used?
+  # Supported plugins you have installed: "Vault".
+  Economy: Vault
+
+  # Which hologram plugin should be used?
+  # You can choose from "Holograms".
+  Hologram: Holograms
+
+  # This setting affects how Anchors (Chunkloader) from EpicAnchors are affecting EpicSpawners.
+  # -1 = Skips NearbyPlayers condition if the chunk is loaded by an Anchor
+  # 0 and greater = Counts as *n* players for the NearbyPlayers condition
+  EpicAnchorsPlayerWeight: 1
+
+  # Should we use protection plugins?
+  Use Protection Plugins: true
+
+  # Should players in creative have to pay for perks like upgrades and boosting?
+  Charge For Creative: false
+
+Spawner Boosting:
+
+  # The highest multiplier a spawner can be boosted to.
+  Max Multiplier For A Spawner Boost: 5
+
+  # The cost required when a player boosts their own spawner.
+  # If you would rather charge experience or economy then enter respectively
+  # ECO or XP in place of the default DIAMOND.
+  Item Charged For A Boost: DIAMOND:2
+
+entity:
+
+  # Should hostile mobs attack only if attacked first?
+  Hostile Mobs Attack Second: false
+
+Spawner Drops:
+
+  # Should stacked spawners always drop their whole stack when broken?
+  Only Drop Stacked Spawners: true
+
+  # Should spawners drop when enough mobs of that spawners type are killed?
+  Allow Killing Mobs To Drop Spawners: true
+
+  # Can mobs from spawners count towards the spawner drop count?
+  Count Unnatural Kills Towards Spawner Drop: false
+
+  # Amount of mob kills required to drop a spawner.
+  Kills Needed for Drop: -1
+
+  # The chance a mob kill will drop a spawner.
+  Chance of Drop: -1
+
+  # Alert players every x amount of kills before dropping spawner.
+  Alert Every X Before Drop: -1
+
+  # Chance of a TNT explosion dropping a spawner.
+  Chance On TNT Explosion: 100%
+
+  # Chance of a creeper explosion dropping a spawner.
+  Chance On Creeper Explosion: 100%
+
+  # Do spawners drop when broken with a pick enchanted with silk touch?
+  Drop On SilkTouch: true
+
+  # What level of silk touch is required to drop a spawner?
+  Minimum Required Silktouch Level: 1
+
+  # Chance of a natural spawner dropping with silk touch.
+  Chance On Natural Silktouch: 100%
+
+  # Chance of a placed spawner dropping with silk touch.
+  Chance On Placed Silktouch: 100%
+
+Interfaces:
+
+  # Item to be displayed as the icon for exiting the interface.
+  Exit Icon: WOOD_DOOR
+
+  # Item to be displayed as the icon for buying a spawner.
+  Buy Icon: EMERALD
+
+  # Item to be displayed as the icon for economy upgrades.
+  Economy Icon: DOUBLE_PLANT
+
+  # Item to be displayed as the icon for XP upgrades.
+  XP Icon: EXP_BOTTLE
+
+  Convert Icon: EGG
+
+  Boost Icon: BLAZE_POWDER
+
+  Glass Type 1: GRAY_STAINED_GLASS_PANE
+
+  Glass Type 2: BLUE_STAINED_GLASS_PANE
+
+  Glass Type 3: LIGHT_BLUE_STAINED_GLASS_PANE
+
+System:
+
+  # The enabled language file.
+  # More language files (if available) can be found in the plugins data folder.
+  Language Mode: en_US

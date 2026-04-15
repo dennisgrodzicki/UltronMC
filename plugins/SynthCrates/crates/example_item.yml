@@ -1,0 +1,219 @@
+Name: §eExample Item Crate
+Type: ITEM_CRATE
+SubType: CSGO
+NeedKey: false
+Cooldown: 20
+Item:
+  Material: CHEST:0
+  Display: §7[§6Crate§7] §eExample Item Crate
+  Lore:
+  - §8§o(Right Click to open)
+  Enchants:
+  - DAMAGE_ALL:10
+  OpenDelay: 0
+Key:
+  Material: TRIPWIRE_HOOK:0
+  Display: §7[§6Key§7] §eItem Crate
+  Lore:
+  - §7This key opens §6Item Crate§7.
+  Enchants: []
+Block:
+  Location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  Pushback:
+    Use: true
+    Modifiers:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  Hologram:
+    Use: false
+    Lines:
+    - §c§lMYSTERY CRATE
+    - §7Get the key at §cwww.synthcraft.com
+Menu:
+  MenuID: menu1
+  Item:
+    Material: CHEST:0
+    Display: §7[§6Crate§7] §eItem Crate
+    Lore:
+    - '§7You have: §a%s% key(s)§7!'
+    - '§7Cost: §6%cost%$'
+  Cost: 5000.0
+  Slot: 22
+Effects:
+  BLOCK:
+    Type: SIMPLE
+    Particle: FLAME
+    Sound: BLOCK_SAND_PLACE
+  USE:
+    Type: HELIX
+    Particle: CRIT_MAGIC
+    Sound: ENTITY_PLAYER_LEVELUP
+  OPEN:
+    Type: FIREWORK
+    Particle: SMOKE_NORMAL
+    Sound: ENTITY_FIREWORK_BLAST
+Rewards:
+  Broadcast:
+    Use: false
+    Value: '%prefix%Player §6%p §fjust opened %crate% §fand got the reward(s): §6%reward%'
+  Max: 1
+  Min: 1
+  List:
+    '0':
+      chance: 50.0
+      name: §fSword §4Joker
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: WOOD_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '§4§nJoker§r '
+            enchants:
+              DAMAGE_ALL: 1
+              DAMAGE_UNDEAD: 1
+              DAMAGE_ARTHROPODS: 1
+              KNOCKBACK: 1
+              FIRE_ASPECT: 1
+              LOOT_BONUS_MOBS: 1
+      cmd:
+        use: false
+        value: eco give %p 100
+      preview:
+        stack:
+          type: WOOD_SWORD
+          data: 0
+          name: §4§nJoker
+          lore:
+          - '§7Chance: §450%'
+          enchant: true
+    '1':
+      chance: 5.0
+      name: §fSword §bCrystal Crasher
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '§b§nCrystal Crasher§r '
+            enchants:
+              DAMAGE_ALL: 10
+              DAMAGE_UNDEAD: 10
+              DAMAGE_ARTHROPODS: 10
+              KNOCKBACK: 10
+              FIRE_ASPECT: 10
+              LOOT_BONUS_MOBS: 10
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: DIAMOND_SWORD
+          data: 0
+          name: §b§nCrystal Crasher
+          lore:
+          - '§7Chance: §b5%'
+          enchant: true
+    '2':
+      chance: 35.0
+      name: §fSword §7Shadow
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: STONE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '§7§nShadow§r '
+            enchants:
+              DAMAGE_ALL: 4
+              DAMAGE_UNDEAD: 4
+              DAMAGE_ARTHROPODS: 4
+              KNOCKBACK: 4
+              FIRE_ASPECT: 4
+              LOOT_BONUS_MOBS: 4
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: STONE_SWORD
+          data: 0
+          name: §7§nShadow
+          lore:
+          - '§7Chance: §835%'
+          enchant: true
+    '3':
+      chance: 10.0
+      name: §fSword Silver Blade
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: IRON_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '§f§nSilver Blade§r '
+            enchants:
+              DAMAGE_ALL: 6
+              DAMAGE_UNDEAD: 6
+              DAMAGE_ARTHROPODS: 6
+              KNOCKBACK: 6
+              FIRE_ASPECT: 6
+              LOOT_BONUS_MOBS: 6
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: IRON_SWORD
+          data: 0
+          name: §f§nSilver Blade
+          lore:
+          - '§7Chance: §f10%'
+          enchant: true
+    '4':
+      chance: 20.0
+      name: §fSword §6Gold Killer
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '§6§nGold Killer§r '
+            enchants:
+              DAMAGE_ALL: 5
+              DAMAGE_UNDEAD: 5
+              DAMAGE_ARTHROPODS: 5
+              KNOCKBACK: 5
+              FIRE_ASPECT: 5
+              LOOT_BONUS_MOBS: 5
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: GOLD_SWORD
+          data: 0
+          name: §6§nGold Killer
+          lore:
+          - '§7Chance: §620%'
+          enchant: true

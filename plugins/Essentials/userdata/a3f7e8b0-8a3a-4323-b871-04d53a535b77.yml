@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1666749538188
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1738536155270
+  login: 1738536090254
+  kits:
+    ultron-plus: 1736882901598
+    firstjoin: 1736882795892
+    ultron: 1736882890698
+    diamond: 1736882845108
+    iron: 1736882817886
+    member: 1736882811182
+    emerald: 1736882935097
+    bedrock: 1736882865999
+    partner: 1736882914396
+money: '837285812.0'
+logoutlocation:
+  world: 49ed2312-cc54-42c0-8563-4ea965ed4407
+  world-name: world
+  x: 1329.8748477745992
+  y: 70.61320608727915
+  z: -272.26116620141937
+  yaw: 127.09590148925781
+  pitch: 10.28278923034668
+last-account-name: disabledaccounts
+lastlocation:
+  world: 49ed2312-cc54-42c0-8563-4ea965ed4407
+  world-name: world
+  x: 1239.3071196755234
+  y: -135.17412884535813
+  z: -344.3271264192749
+  yaw: 127.21099853515625
+  pitch: 10.743169784545898

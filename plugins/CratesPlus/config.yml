@@ -1,0 +1,833 @@
+# [][][][][][][][][][][][][][][][][][][][][]
+#  CratesPlus V4.5.3 Config
+# [][][][][][][][][][][][][][][][][][][][][]
+# ------------------------------------------
+# There are many placeholders that can now be used withing the config and messages file, placeholders are as followed:
+# - %name% - Replaces with the players name, Example: "Notch".
+# - %displayname% - Replaces with the players display name, Example: "[Owner] Notch".
+# - %uuid% - Replaces with the players UUID.
+# - %crate% - The crate types name.
+# - %prize% - The name of the winning.
+# - %percentage% - Percentage of the winning, useful for "Chance Message".
+# - %rand;100;500% - Generates a random number between two numbers, example is between 100 and 500.
+# ------------------------------------------
+# Don't change the config version!
+
+Config Version: 6
+Update Checks: true
+Update Branch: spigot
+Metrics: true
+Default Opener: BasicGUI
+Default Cooldown: 5
+Crate Protection: false
+Disable Key Swapping: false
+Default Hologram Text:
+- '%crate%'
+- Right-Click to Open!
+- Left-Click to Preview!
+Crates:
+  Legendary:
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+      '2':
+        Type: ITEM
+        Item Type: EYE_OF_ENDER
+        Item Data: 0
+        Name: '&6&lArmor Enchantment Orb &6[&a&n11&6]'
+        Amount: 2
+        Enchantments: []
+      '3':
+        Type: ITEM
+        Item Type: EYE_OF_ENDER
+        Item Data: 0
+        Name: '&6&lWeapon Enchantment Orb &6[&a&n11&6]'
+        Amount: 2
+        Enchantments: []
+      '4':
+        Type: ITEM
+        Item Type: ENDER_CHEST
+        Item Data: 0
+        Name: '&6&lTier III Money Pouch &r&7(Right Click)'
+        Amount: 3
+        Enchantments: []
+      '5':
+        Type: ITEM
+        Item Type: ENDER_CHEST
+        Item Data: 0
+        Name: '&c&lTier II Money Pouch &r&7(Right Click)'
+        Amount: 2
+        Enchantments: []
+      '6':
+        Type: ITEM
+        Item Type: BEACON
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+      '7':
+        Type: ITEM
+        Item Type: DRAGON_EGG
+        Item Data: 0
+        Name: NONE
+        Amount: 3
+        Enchantments: []
+      '8':
+        Type: ITEM
+        Item Type: HOPPER
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+      '9':
+        Type: ITEM
+        Item Type: CHEST
+        Item Data: 0
+        Name: '&6&lXP Pouch &r&7(Right Click)'
+        Amount: 6
+        Enchantments: []
+      '10':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&r&f&l<<&4&lGODLY&f&l>> &9Grinding Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-10
+        - DAMAGE_UNDEAD-10
+        - DURABILITY-10
+        - LOOT_BONUS_MOBS-10
+      '11':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&r&f&l<<&4&lGODLY&f&l>> &9Silk Touch Pickaxe'
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-25
+        - SILK_TOUCH-10
+        - DURABILITY-10
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&r&f&l<<&4&lGODLY&f&l>> &9Fortune Pickaxe'
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-25
+        - DURABILITY-10
+        - LOOT_BONUS_BLOCKS-10
+      '13':
+        Type: ITEM
+        Item Type: DIAMOND_AXE
+        Item Data: 0
+        Name: '&r&f&l<<&4&lGODLY&f&l>> &9Axe'
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-25
+        - DURABILITY-10
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_SPADE
+        Item Data: 0
+        Name: '&r&f&l<<&4&lGODLY&f&l>> &9Shovel'
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-25
+        - DURABILITY-10
+      '15':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Name: '&fCreeper Spawner &620x'
+        Commands:
+        - us givespawnerr %name% creeper 20
+      '16':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Name: '&fGhast Spawner &68x'
+        Amount: 1
+        Commands:
+        - us givespawnerr %name% ghast 8
+      '17':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Name: '&fMagma Cube Spawner &610x'
+        Amount: 1
+        Commands:
+        - us givespawnerr %name% MAGMA_CUBE 10
+      '18':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Name: '&fIron Golem Spawner &616x'
+        Amount: 1
+        Commands:
+        - us givespawnerr %name% IRON_GOLEM 16
+    Knockback: 0.0
+    Block: ENDER_CHEST
+    Color: GOLD
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+  Rare:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: BLUE
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '2':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '3':
+        Type: ITEM
+        Item Type: BEACON
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '4':
+        Type: ITEM
+        Item Type: ENDER_CHEST
+        Item Data: 0
+        Name: '&6&lTier III Money Pouch &r&7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xc2\xa77Open this pouch to receive a random amount of money!"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lTier III Money Pouch \xa7r\xa77(Right Click)"
+          lore:
+          - "\xc2\xa77Open this pouch to receive a random amount of money!"
+      '5':
+        Type: ITEM
+        Item Type: CHEST
+        Item Data: 0
+        Name: '&6&lXP Pouch &r&7(Right Click)'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xc2\xa77Open this pouch to receive experience \xc2\xa78(0-4000)\xc2\xa7\
+          7!"
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa76\xa7lXP Pouch \xa7r\xa77(Right Click)"
+          lore:
+          - "\xc2\xa77Open this pouch to receive experience \xc2\xa78(0-4000)\xc2\xa7\
+            7!"
+          blockMaterial: CHEST
+      '6':
+        Type: ITEM
+        Item Type: DRAGON_EGG
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: HOPPER
+        Item Data: 0
+        Name: NONE
+        Amount: 25
+        Enchantments: []
+        Lore: []
+      '8':
+        Type: ITEM
+        Item Type: SLIME_BALL
+        Item Data: 0
+        Name: '&aBlockTrak Creator'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xc2\xa77Track how many blocks you break with a tool"
+        - "\xc2\xa77Drag ontop of another item to apply it"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7aBlockTrak Creator"
+          lore:
+          - "\xc2\xa77Track how many blocks you break with a tool"
+          - "\xc2\xa77Drag ontop of another item to apply it"
+      '9':
+        Type: ITEM
+        Item Type: EMPTY_MAP
+        Item Data: 0
+        Name: '&fWhite Scroll'
+        Amount: 32
+        Enchantments: []
+        Lore:
+        - "\xc2\xa7fPrevents an item from being destroyed"
+        - "\xc2\xa7fdue to a failed Enchantment Book."
+        - "\xc2\xa7ePlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7fWhite Scroll"
+          lore:
+          - "\xc2\xa7fPrevents an item from being destroyed"
+          - "\xc2\xa7fdue to a failed Enchantment Book."
+          - "\xc2\xa7ePlace scroll on item to apply."
+          internal: H4sIAAAAAAAA/+NiYOBg4ExMjS9OLsrPyWFgKSkqTWUAAEPbJD8WAAAA
+      '10':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&f&l&ki &1&lGrinder &f&l&nHelmet &f&l&ki'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - ''
+        - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+        - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7l\xa7ki \xa71\xa7lGrinder \xa7f\xa7l\xa7nHelmet\
+            \ \xa7f\xa7l\xa7ki"
+          lore:
+          - ''
+          - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+          - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAA/+NiYOBg4Egsys0vCk4tYWB3L8rMS0ktYgAAk9MliRgAAAA=
+      '11':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&f&l&ki &1&lGrinder &f&l&nChestplate &f&l&ki'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - ''
+        - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+        - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7l\xa7ki \xa71\xa7lGrinder \xa7f\xa7l\xa7nChestplate\
+            \ \xa7f\xa7l\xa7ki"
+          lore:
+          - ''
+          - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+          - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAA/+NiYOBg4Egsys0vCk4tYWB3L8rMS0ktYgAAk9MliRgAAAA=
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&f&l&ki &1&lGrinder &f&l&nLeggings &f&l&ki'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - ''
+        - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+        - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7l\xa7ki \xa71\xa7lGrinder \xa7f\xa7l\xa7nLeggings\
+            \ \xa7f\xa7l\xa7ki"
+          lore:
+          - ''
+          - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+          - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAA/+NiYOBg4Egsys0vCk4tYWB3L8rMS0ktYgAAk9MliRgAAAA=
+      '13':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&f&l&ki &1&lGrinder &f&l&nBoots &f&l&ki'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - ''
+        - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+        - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7l\xa7ki \xa71\xa7lGrinder \xa7f\xa7l\xa7nBoots \xa7\
+            f\xa7l\xa7ki"
+          lore:
+          - ''
+          - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+          - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAA/+NiYOBg4Egsys0vCk4tYWB3L8rMS0ktYgAAk9MliRgAAAA=
+      '14':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Commands:
+        - us givespawnerr %name% creeper 16
+        Name: '&fCreeper Spawner &616x'
+      '15':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Commands:
+        - us givespawnerr %name% IRON_GOLEM 10
+        Name: '&fIron Golem &610x'
+        Amount: 1
+      '16':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Commands:
+        - us givespawnerr %name% villager 2
+        Name: '&fVillager Spawner &62x'
+        Amount: 1
+  Common:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: DARK_GRAY
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '3':
+        Type: ITEM
+        Item Type: HOPPER
+        Item Data: 0
+        Name: NONE
+        Amount: 10
+        Enchantments: []
+        Lore: []
+      '4':
+        Type: ITEM
+        Item Type: INK_SACK
+        Item Data: 0
+        Name: '&f&lBlack Scroll'
+        Amount: 16
+        Enchantments: []
+        Lore:
+        - "\xc2\xa77Removes a random enchantment"
+        - "\xc2\xa77from an item and converts"
+        - "\xc2\xa77it into a \xc2\xa7f100% \xc2\xa77success book."
+        - "\xc2\xa7fPlace scroll onto item to extract."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7lBlack Scroll"
+          lore:
+          - "\xc2\xa77Removes a random enchantment"
+          - "\xc2\xa77from an item and converts"
+          - "\xc2\xa77it into a \xc2\xa7f100% \xc2\xa77success book."
+          - "\xc2\xa7fPlace scroll onto item to extract."
+          ItemFlags: !!set
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+          internal: H4sIAAAAAAAA/+NiYOBg4ExMjS9OLsrPyWFgKSkqTeVgYC8uTU5OLS5mYDY0MGAAAFW3MbElAAAA
+      '5':
+        Type: ITEM
+        Item Type: EMPTY_MAP
+        Item Data: 0
+        Name: '&fWhite Scroll'
+        Amount: 16
+        Enchantments: []
+        Lore:
+        - "\xc2\xa7fPrevents an item from being destroyed"
+        - "\xc2\xa7fdue to a failed Enchantment Book."
+        - "\xc2\xa7ePlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7fWhite Scroll"
+          lore:
+          - "\xc2\xa7fPrevents an item from being destroyed"
+          - "\xc2\xa7fdue to a failed Enchantment Book."
+          - "\xc2\xa7ePlace scroll on item to apply."
+          internal: H4sIAAAAAAAA/+NiYOBg4ExMjS9OLsrPyWFgKSkqTWUAAEPbJD8WAAAA
+      '6':
+        Type: ITEM
+        Item Type: ENDER_CHEST
+        Item Data: 0
+        Name: '&2&lTier I Money Pouch &r&7(Right Click)'
+        Amount: 2
+        Enchantments: []
+        Lore:
+        - "\xc2\xa77Open this pouch to receive a random amount of money!"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa72\xa7lTier I Money Pouch \xa7r\xa77(Right Click)"
+          lore:
+          - "\xc2\xa77Open this pouch to receive a random amount of money!"
+      '7':
+        Type: ITEM
+        Item Type: ENDER_CHEST
+        Item Data: 0
+        Name: '&c&lTier II Money Pouch &r&7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xc2\xa77Open this pouch to receive a random amount of money!"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7c\xa7lTier II Money Pouch \xa7r\xa77(Right Click)"
+          lore:
+          - "\xc2\xa77Open this pouch to receive a random amount of money!"
+      '8':
+        Type: ITEM
+        Item Type: CHEST
+        Item Data: 0
+        Name: '&6&lXP Pouch &r&7(Right Click)'
+        Amount: 2
+        Enchantments: []
+        Lore:
+        - "\xc2\xa77Open this pouch to receive experience \xc2\xa78(0-4000)\xc2\xa7\
+          7!"
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa76\xa7lXP Pouch \xa7r\xa77(Right Click)"
+          lore:
+          - "\xc2\xa77Open this pouch to receive experience \xc2\xa78(0-4000)\xc2\xa7\
+            7!"
+          blockMaterial: CHEST
+      '9':
+        Type: ITEM
+        Item Type: SLIME_BALL
+        Item Data: 0
+        Name: '&aBlockTrak Creator'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xc2\xa77Track how many blocks you break with a tool"
+        - "\xc2\xa77Drag ontop of another item to apply it"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7aBlockTrak Creator"
+          lore:
+          - "\xc2\xa77Track how many blocks you break with a tool"
+          - "\xc2\xa77Drag ontop of another item to apply it"
+      '10':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&f&l&ki &1&lGrinder &f&l&nHelmet &f&l&ki'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - ''
+        - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+        - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7l\xa7ki \xa71\xa7lGrinder \xa7f\xa7l\xa7nHelmet\
+            \ \xa7f\xa7l\xa7ki"
+          lore:
+          - ''
+          - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+          - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAA/+NiYOBg4Egsys0vCk4tYWB3L8rMS0ktYgAAk9MliRgAAAA=
+      '11':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&f&l&ki &1&lGrinder &f&l&nChestplate &f&l&ki'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - ''
+        - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+        - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7l\xa7ki \xa71\xa7lGrinder \xa7f\xa7l\xa7nChestplate\
+            \ \xa7f\xa7l\xa7ki"
+          lore:
+          - ''
+          - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+          - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAA/+NiYOBg4Egsys0vCk4tYWB3L8rMS0ktYgAAk9MliRgAAAA=
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&f&l&ki &1&lGrinder &f&l&nLeggings &f&l&ki'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - ''
+        - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+        - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7l\xa7ki \xa71\xa7lGrinder \xa7f\xa7l\xa7nLeggings\
+            \ \xa7f\xa7l\xa7ki"
+          lore:
+          - ''
+          - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+          - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAA/+NiYOBg4Egsys0vCk4tYWB3L8rMS0ktYgAAk9MliRgAAAA=
+      '13':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&f&l&ki &1&lGrinder &f&l&nBoots &f&l&ki'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - ''
+        - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+        - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+        - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7l\xa7ki \xa71\xa7lGrinder \xa7f\xa7l\xa7nBoots \xa7\
+            f\xa7l\xa7ki"
+          lore:
+          - ''
+          - "\xc2\xa7d\xc2\xa7lGRINDER SET BONUS"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d+300% PvE Damage"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7dClears Negitive Effects"
+          - "\xc2\xa7d\xc2\xa7l* \xc2\xa7d10x More Drops From Mobs Grinded"
+          - "\xc2\xa77\xc2\xa7o(Requires all 4 grinder set peices.)"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAA/+NiYOBg4Egsys0vCk4tYWB3L8rMS0ktYgAAk9MliRgAAAA=
+      '14':
+        Type: ITEM
+        Item Type: EYE_OF_ENDER
+        Item Data: 0
+        Name: '&6&lWeapon Enchantment Orb &6[&a&n11&6]'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xc2\xa7a10% Success Rate"
+        - ''
+        - "\xc2\xa76+2 Enchantment slots"
+        - "\xc2\xa7611 Max Enchantment Slots"
+        - ''
+        - "\xc2\xa7eIncreases the # of enchantment"
+        - "\xc2\xa7eslots on a weapon by 2,"
+        - "\xc2\xa7eup to a maximum of 11"
+        - "\xc2\xa77Drag n' Drop onto an item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lWeapon Enchantment Orb \xa76[\xa7a\xa7n11\xa76]"
+          lore:
+          - "\xc2\xa7a10% Success Rate"
+          - ''
+          - "\xc2\xa76+2 Enchantment slots"
+          - "\xc2\xa7611 Max Enchantment Slots"
+          - ''
+          - "\xc2\xa7eIncreases the # of enchantment"
+          - "\xc2\xa7eslots on a weapon by 2,"
+          - "\xc2\xa7eup to a maximum of 11"
+          - "\xc2\xa77Drag n' Drop onto an item to apply."
+          internal: H4sIAAAAAAAA/+NiYOBgYM4vSmLgKU9NLMjPszY0tDY0YAAAMZ1jaRgAAAA=
+      '15':
+        Type: ITEM
+        Item Type: EYE_OF_ENDER
+        Item Data: 0
+        Name: '&6&lArmor Enchantment Orb &6[&a&n11&6]'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xc2\xa7a10% Success Rate"
+        - ''
+        - "\xc2\xa76+2 Enchantment slots"
+        - "\xc2\xa7611 Max Enchantment Slots"
+        - ''
+        - "\xc2\xa7eIncreases the # of enchantment"
+        - "\xc2\xa7eslots on a piece of armor by 2,"
+        - "\xc2\xa7eup to a maximum of 11"
+        - "\xc2\xa77Drag n' Drop onto an item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lArmor Enchantment Orb \xa76[\xa7a\xa7n11\xa76]"
+          lore:
+          - "\xc2\xa7a10% Success Rate"
+          - ''
+          - "\xc2\xa76+2 Enchantment slots"
+          - "\xc2\xa7611 Max Enchantment Slots"
+          - ''
+          - "\xc2\xa7eIncreases the # of enchantment"
+          - "\xc2\xa7eslots on a piece of armor by 2,"
+          - "\xc2\xa7eup to a maximum of 11"
+          - "\xc2\xa77Drag n' Drop onto an item to apply."
+          internal: H4sIAAAAAAAA/+NiYOBgYM4vSmLgTizKzS+yNjS0NjRgAABE6MtwFwAAAA==
+      '16':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Commands:
+        - us givespawnerr %name% creeper 8
+        Name: '&fCreeper Spawner &68x'
+      '17':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Commands:
+        - us givespawnerr %name% IRON_GOLEM 4
+        Name: '&fIron Golem &64x'
+        Amount: 1
+      '18':
+        Type: COMMAND
+        Item Type: MOB_SPAWNER
+        Commands:
+        - us givespawnerr %name% MAGMA_CUBE 6
+        Name: '&fVillager Spawner &66x'
+        Amount: 1
+  spwaner:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: WHITE
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&4Guardian &fSpawner'
+        Amount: 14
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa74Guardian \xa7fSpawner"
+          internal: H4sIAAAAAAAA/+NiYOBgYElJLElk4HAPdQxy8XT0AwqUZKYWMbCFAMl4Q2YGluLMqlQGBgZGBgDEQfNLLwAAAA==
+          blockMaterial: MOB_SPAWNER

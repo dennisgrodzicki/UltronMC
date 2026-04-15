@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 86.32.37.240
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664835455664
+  login: 1664835175413
+money: '1000'
+last-account-name: ULTRVV
+logoutlocation:
+  world: 49ed2312-cc54-42c0-8563-4ea965ed4407
+  world-name: world
+  x: 1232.5162399039434
+  y: 63.5
+  z: -340.4480073169292
+  yaw: 7.909393310546875
+  pitch: 37.514835357666016
+lastlocation:
+  world: f96f4a49-d080-4475-8cf3-5ad45514473d
+  world-name: island_normal_world
+  x: 1202.2170995433241
+  y: 80.0
+  z: 1203.81963624319
+  yaw: 78.06817626953125
+  pitch: 65.76895904541016

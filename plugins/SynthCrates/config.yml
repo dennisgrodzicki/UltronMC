@@ -1,0 +1,8 @@
+FixBlockPositions: false
+Messages:
+  ActionBar: true
+
+OpenDelay:
+  BarSymbol: '-'
+  FirstColor: '&7'
+  SecondColor: '&b'

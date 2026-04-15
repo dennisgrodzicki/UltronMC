@@ -1,0 +1,31 @@
+author: Craftaro
+
+# The enchant identifier must be unique.
+identifier: Boost
+
+# The max level for this enchant.
+max-level: 3
+
+# The group of this enchant. Configure the groups in the groups.yml file.
+group: MYTHIC
+
+# How the enchant should be formatted on the enchanted item.
+applied-format: "&9Boost %level%"
+
+# Description
+description:
+  - "Permanent jump boost."
+
+# What items this enchant can be applied to.
+item-whitelist:
+  - "BOOTS"
+
+# For a full list of effects, please visit: https://wiki.craftaro.com/index.php/Epic_Enchants#Tutorials
+effects:
+  POTION:
+    # The trigger that will fire this effect.
+    trigger: STATIC_EFFECT
+    # The potion type.
+    potion-type: JUMP
+    # The amplifier of the potion effect.
+    amplifier: "%level%"

@@ -1,0 +1,156 @@
+#############################################
+#                                           #
+#               JetsAntiAFKPro              #
+#             Created by Jet315             #
+#                                           #
+#############################################
+
+#The prefix that is shown before the plugin
+plugins_prefix: "&eAFK &7» "
+
+
+# -- Plugin Settings --
+
+#The check delay in seconds of checking when someone is AFK - These calculations are done ASync so I wouldn't suggest changing this (It's not going to effect performance)
+#If you do change it, the actions below must be divisible by this number (I wouldn't suggest changing it, but you have the option too)
+check_delay: 1
+
+#Do you want to stop the player getting playtime, if the player is AFK? if so, how long should the player be AFK for before it stops counting playtime?
+#set to -1 to disable
+afk_stop_counting_playtime: -1
+
+#If a player types/speaks, would you like this to reset the players AFK time to 0 (So speaking means players are not considered AFK)
+should_player_be_afk_if_speaks: false #false = If a player speaks, they will still be considered AFK if they do not move
+
+#Would you like to give players god mode, so they cannot take damage, if a player goes afk (Default is 120 seconds, unless 'afk_stop_counting_playtime' is specified)
+enable_afk_god_mode: false
+
+#Any world names listed here, if a player is in it, the AFK actions wont be executed against
+afk_exempt_worlds:
+  - example_world
+#Any world names listed here, if a player is in it, the playtime actions wont be executed against
+playtime_exempt_worlds:
+  - example_world
+
+#Would you like to enable the /afk command? This will override essentials - Requires server restart to take effect if you change this value
+enable_afk_command: false
+
+#Whether you want players playtime to be stored
+store_player_time: true
+
+#If this is false, doing /afk (or alias) will tell the player his/her time in chat
+enable_player_time_gui: false
+
+#The papi placeholder %jetsantiafkpro_isafk% will return the following text if they are considered afk (by default, 2 minutes, or when the variable afk_stop_counting_playtime above is hit), or the non_afk_placeholder if they are not afk
+#This is good for Tab Lists plugins
+afk_placeholder: "&4[&cAFK&4]"
+non_afk_placeholder: ""
+
+
+# -- AFK Actions --
+#These actions are executed if the players time (in seconds) is equal to the number below
+#Action format:
+#  ACTION|Value
+#Possible Actions
+#  COMMAND                Example: COMMAND|kick %PLAYER% don't afk...     *Executes a command and replaces %PLAYER% with the players name
+#  TITLE                  Example: TITLE|Title Text;SubTitle Text         *Shows a title to the player and replaces %PLAYER% with the players name and ; to split title;subtitle - 1.8 MC Required TitleAPI
+#  SOUND                  Example: SOUND|BLOCK_LADDER_HIT                 *NOTE YOU WILL NEED TO USE THE CORRECT SOUND NAME FOR YOUR MC VERSION
+#  MESSAGE                Example: MESSAGE|Hey, %PLAYER%, wake up!        *Sends the message to a player, replace %PLAYER% with the players name - Other placeholders using PlaceholderAPI supported
+#  SERVER                 Example: SERVER|lobby                           *Players will be sent to a server called 'lobby'
+#  PERMISSION             Example: PERMISSION|antiafkpro.default          *Players will need the required permission, else the action will not continue
+#  BYPASSPERMISSION       Example: BYPASSPERMISSION|antiafkpro.default    *Players with this permission will not be effected by the action
+#  SLOTCOUNTGREATERTHAN   Example: SLOTCOUNTGREATERTHAN|30                *The action will only be executed if there is > 30 players on
+#  SLOTCOUNTERLESSTHAN    Example: SLOTCOUNTERLESSTHAN|30                 *The action will only be executed if there is < 30 players on
+#  PLAYTIMEGREATERTHAN    Example: PLAYTIMEGREATERTHAN|500                *The action will only be executed if the player has played for more than 500 seconds
+#  PLAYTIMELESSTHAN       Example: PLAYTIMELESSTHAN|500                   *The action will only be executed if the player has played for less than 500 seconds
+#  INWORLD                Example: INWORLD|pvpworld                       *The action will only be executed if they are in the pvpworld
+#  BROADCAST              Example: BROADCAST|Hello all!                   *Broadcast a message to everyone on the server
+#
+# If you want to repeat an action, say every 10 minutes reward a player, simply add a % after the number (see  playtime as an example
+#MVdWPlaceholders Supported
+#Hex colour codes supported
+#
+actions:
+#
+#Actions that are executed when the player is AFK
+#
+  afk:
+    120: #120 seconds = 2 minutes
+      -  "MESSAGE|&eAFK &7» &cYou have been AFK for two minutes, you will be kicked soon!"
+      -  "TITLE|&6You have been ; &6AFK for two minutes"
+    295:
+      -  "TITLE|&6Anti AFK ; &bYou will be kicked in &c5 &bseconds"
+    296:
+      -  "TITLE|&6Anti AFK ; &bYou will be kicked in &c4 &bseconds"
+    297:
+      -  "TITLE|&6Anti AFK ; &bYou will be kicked in &c3 &bseconds"
+    298:
+      -  "TITLE|&6Anti AFK ; &bYou will be kicked in &c2 &bseconds"
+    299:
+      -  "TITLE|&6Anti AFK ; &bYou will be kicked in &c1 &bsecond"
+    300: #300 seconds = 5 minutes
+      -  "BYPASSPERMISSION|antiafkpro.admin" #If they have this permission, the action will not execute
+      -  "COMMAND|kick %PLAYER% You have been kicked as you have been AFK for 5 minutes"
+#
+## Actions that are executed when the player plays for a certain time (store_player_time needs to be enabled for this)
+#
+  playtime:
+    300: #300 seconds = 5 minutes
+      -  "MESSAGE|&ePlayTime &7» &cYou have played for 5 Minutes! &6You have been rewarded with $1000!"
+      -  "COMMAND|eco give %PLAYER% 1000"
+    3600: #3600 seconds = 1 hour
+      -  "MESSAGE|&ePlayTime &7» &cYou have played for 1 hour! &6You have been rewarded with $100000!"
+      -  "COMMAND|eco give %PLAYER% 100000"
+    86400: #86400 seconds = 1 day
+      -  "MESSAGE|&ePlayTime &7» &cYou have played for 1 day! &6You have been rewarded with $10000!"
+      -  "COMMAND|eco give %PLAYER% 250000"
+    86400%: # -- PUTTING A % AFTER A NUMBER MEANS IT WILL BE REPEATED EVERY X SECONDS
+      -  "MESSAGE|&4Ultron &7» &cYou have been rewarded with $250000 for playing! "
+      -  "COMMAND|eco give %PLAYER% 250000"
+    600%: # -- PUTTING A % AFTER A NUMBER MEANS IT WILL BE REPEATED EVERY X SECONDS
+      -  "MESSAGE|&4Ultron &7» &cYou have been rewarded with $10000 for playing! "
+      -  "COMMAND|eco give %PLAYER% 10000"
+
+#
+## Actions that are executed when a player has returned from being AFK after X time
+#
+  return_from_afk:
+    120: #120 seconds = 2 minutes - If a player has been AFK for more than 120 seconds, this action will be executed when the player gets back
+      - "MESSAGE|&eAFK &7» &cWelcome Back!"
+      - "TITLE|&6You have returned ; &6from being AFK"
+
+afk_ignore_opped_players: true #afk actions will not effect opped players
+
+# -- Message options --
+#When a player tries sending a message to a target player, if the target player is AFK, would you like warn the sender the target player is AFK?
+#Configure the message sent to the player under 'target_player_is_afk' in messages.yml
+target_player_afk_messages: [] ### To enable this, delete the [] and uncomment the lines underneath
+#  - "/message"
+#  - "/m"
+#  - "/msg"
+#  - "/pm"
+#  - "/w"
+#  - "/whisper"
+
+
+# -- Database properties --
+
+#Either you may use SQLite or MySQL (Can use MySQL to enable a single cross-server database to store players time in)
+#If you do not understand these settings, it's probably best not to change
+#There is currently no way to transfer data from one properties solution to another (I.E changing properties types after setting up the plugin will cause player data to start over)
+database:
+  sqlite:
+    use: true
+    db: "data"
+  mysql:
+    use: false
+    host: "localhost"
+    user: "root"
+    password: "pa55sw0rd"
+    port: "3306"
+    db: "antiafkpro"
+    ssl: false
+#Auto-save interval - Would you like to save data to the database periodically to prevent loss of data if the server crashes?
+#By default, data is saved when a player logs out or when the server is stopped
+#Number of seconds you would like to save data to the database, -1 to disable (suggested 300 if you want to enable this)
+auto_save_seconds: -1

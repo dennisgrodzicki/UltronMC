@@ -1,0 +1,274 @@
+kits:
+  member:
+    delay: 84600
+    items:
+    - beef 16
+    - ironshovel 1 name:&r&7[Member]_&fShovel dig_speed:1
+    - ironaxe 1 name:&r&7[Member]_&fAxe dig_speed:1
+    - ironpickaxe 1 name:&r&7[Member]_&fPickaxe dig_speed:1
+    - ironsword 1 name:&r&7[Member]_&fSword damage_all:1
+    - ironboots 1 name:&r&7[Member]_&fBoots protection_environmental:1
+    - ironleggings 1 name:&r&7[Member]_&fLeggings protection_environmental:1
+    - ironchestplate 1 name:&r&7[Member]_&fChestplate protection_environmental:1
+    - ironhelmet 1 name:&r&7[Member]_&fHelmet protection_environmental:1
+    - ironblock 3
+    - dirt 16
+    - cobblestone 32
+    - grass 10
+    - coal 8
+    - ironingot 8
+    - emerald 5
+    - diamond 5
+    - goldingot 8
+    - goldblock 3
+  iron:
+    delay: 84600
+    items:
+    - beef 32
+    - diamondpickaxe 1 name:&r&7[Iron]_&fPickaxe dig_speed:1
+    - diamondshovel 1 name:&r&7[Iron]_&fShovel dig_speed:1
+    - diamondaxe 1 name:&r&7[Iron]_&fAxe dig_speed:1
+    - diamondsword 1 name:&r&7[Iron]_&fSword damage_all:1
+    - diamondboots 1 name:&r&7[Iron]_&fBoots protection_environmental:1
+    - diamondleggings 1 name:&r&7[Iron]_&fLeggings protection_environmental:1
+    - diamondchestplate 1 name:&r&7[Iron]_&fChestplate protection_environmental:1
+    - diamondhelmet 1 name:&r&7[Iron]_&fHelmet protection_environmental:1
+    - emeraldblock 3
+    - diamondblock 3
+    - goldblock 10
+    - dirt 32
+    - grass 24
+    - cobblestone 64
+    - goldingot 16
+    - ironingot 16
+    - coal 16
+    - diamond 10
+    - emerald 10
+    - ironblock 10
+  diamond:
+    delay: 84600
+    items:
+    - beef 64
+    - diamondshovel 1 name:&r&b[Diamond]_&fShovel dig_speed:3
+    - diamondaxe 1 name:&r&b[Diamond]_&fAxe dig_speed:3
+    - diamondpickaxe 1 name:&r&b[Diamond]_&fPickaxe dig_speed:3
+    - diamondsword 1 name:&r&b[Diamond]_&fSword damage_all:3
+    - diamondboots 1 name:&r&b[Diamond]_&fBoots protection_environmental:3
+    - diamondleggings 1 name:&r&b[Diamond]_&fLeggings protection_environmental:3
+    - diamondchestplate 1 name:&r&b[Diamond]_&fChestplate protection_environmental:3
+    - diamondhelmet 1 name:&r&b[Diamond]_&fHelmet protection_environmental:3
+    - goldenapple 1
+    - diamondblock 10
+    - emeraldblock 10
+    - goldblock 20
+    - ironblock 20
+    - cobblestone 64
+    - cobblestone 64
+    - grass 40
+    - dirt 64
+    - ironingot 32
+    - goldingot 32
+    - coal 32
+    - diamond 16
+    - emerald 16
+    - /crates givephys {player} common 1
+    - /give {player} 52:61 8 #blaze
+    - /give {player} 52:62 2 #magma
+    - /give {player} 52:99 4 #iron_golem
+  emerald:
+    delay: 84600
+    items:
+    - beef 64
+    - diamondshovel 1 name:&r&a[Emerald]_&fShovel dig_speed:4 durability:3
+    - diamondaxe 1 name:&r&a[Emerald]_&fAxe dig_speed:4 durability:3
+    - diamondpickaxe 1 name:&r&a[Emerald]_&fPickaxe dig_speed:4 durability:3
+    - diamondsword 1 name:&r&a[Emerald]_&fSword damage_all:4 durability:3
+    - diamondboots 1 name:&r&a[Emerald]_&fBoots protection_environmental:4 durability:3
+    - diamondleggings 1 name:&r&a[Emerald]_&fLeggings protection_environmental:4 durability:3
+    - diamondchestplate 1 name:&r&a[Emerald]_&fChestplate protection_environmental:4
+      durability:3
+    - diamondhelmet 1 name:&r&a[Emerald]_&fHelmet protection_environmental:4 durability:3
+    - cobblestone 64
+    - cobblestone 64
+    - dirt 16
+    - dirt 64
+    - coal 64
+    - grass 64
+    - chest 1 name:&6&lXP_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_experience_&8(0-4000)&7!
+    - enderchest 1 name:&2&lTier_I_Money_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_a_random_amount_of_money!
+    - goldenapple 5
+    - emeraldblock 20
+    - goldblock 40
+    - ironblock 40
+    - diamondblock 20
+    - emerald 32
+    - ironingot 64
+    - goldingot 64
+    - diamond 32
+    - /crates givephys {player} common 1
+    - /give {player} 52:61 16 #blaze
+    - /give {player} 52:62 4 #magma
+    - /give {player} 52:99 8 #iron_golem
+  bedrock:
+    delay: 84600
+    items:
+    - beef 64
+    - diamondshovel 1 name:&r&8[Bedrock]_&fShovel dig_speed:4 durability:3
+    - diamondaxe 1 name:&r&8[Bedrock]_&fAxe dig_speed:4 durability:3
+    - diamondpickaxe 1 name:&r&8[Bedrock]_&fPickaxe dig_speed:4 durability:3
+    - diamondsword 1 name:&r&8[Bedrock]_&fSword damage_all:4 durability:3
+    - diamondboots 1 name:&r&8[Bedrock]_&fBoots protection_environmental:4 durability:3
+    - diamondleggings 1 name:&r&8[Bedrock]_&fLeggings protection_environmental:4 durability:3
+    - diamondchestplate 1 name:&r&8[Bedrock]_&fChestplate protection_environmental:4
+      durability:3
+    - diamondhelmet 1 name:&r&8[Bedrock]_&fHelmet protection_environmental:4 durability:3
+    - chest 3 name:&6&lXP_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_experience_&8(0-4000)&7!
+    - enderchest 2 name:&6&lTier_III_Money_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_a_random_amount_of_money!
+    - goldenapple 10
+    - emeraldblock 32
+    - cobblestone 64
+    - cobblestone 64
+    - dirt 48
+    - dirt 64
+    - grass 16
+    - grass 64
+    - ironblock 64
+    - goldblock 64
+    - diamondblock 32
+    - /crates givephys {player} rare 1
+    - /crates givephys {player} common 1
+    - /us givespawner {player} ghast 4
+    - /us givespawner {player} MAGMA_CUBE 16
+    - /us givespawner {player} IRON_GOLEM 32
+  ultron:
+    delay: 84600
+    items:
+    - goldencarrot 64
+    - diamondshovel 1 name:&r&4&l[Ultron]_&fShovel dig_speed:4 durability:3
+    - diamondaxe 1 name:&r&4&l[Ultron]_&fAxe dig_speed:4 durability:3
+    - diamondpickaxe 1 name:&r&4&l[Ultron]_&fPickaxe dig_speed:4 durability:3
+    - diamondsword 1 name:&r&4&l[Ultron]_&fSword damage_all:5 durability:3
+    - diamondboots 1 name:&r&4&l[Ultron]_&fBoots protection_environmental:5 durability:3
+    - diamondleggings 1 name:&r&4&l[Ultron]_&fLeggings protection_environmental:5
+      durability:3
+    - diamondchestplate 1 name:&r&4&l[Ultron]_&fChestplate protection_environmental:5
+      durability:3
+    - diamondhelmet 1 name:&r&4&l[Ultron]_&fHelmet protection_environmental:5 durability:3
+    - grass 64
+    - grass 64
+    - enderchest 2 name:&6&lTier_III_Money_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_a_random_amount_of_money!
+    - chest 6 name:&6&lXP_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_experience_&8(0-4000)&7!
+    - dye 1 name:&f&lBlack_Scroll lore:&7Removes_a_random_enchantment|&7from_an_item_and_converts|&7it_into_a_&f100%_&7success_book.|&fPlace_scroll_onto_item_to_extract.
+      itemflags:HIDE_ATTRIBUTES,HIDE_POTION_EFFECTS
+    - emptymap 1 name:&fWhite_Scroll lore:&fPrevents_an_item_from_being_destroyed|&fdue_to_a_failed_Enchantment_Book.|&ePlace_scroll_on_item_to_apply.
+    - goldenapple 32
+    - diamondblock 32
+    - goldblock 64
+    - goldblock 64
+    - emeraldblock 32
+    - emeraldblock 64
+    - ironblock 64
+    - ironblock 64
+    - diamondblock 64
+    - /crates givephys {player} legendary 1
+    - /crates givephys {player} rare 1
+    - /crates givephys {player} common 1
+    - /us givespawner {player} villager 1
+    - /us givespawner {player} ghast 4
+    - /us givespawner {player} MAGMA_CUBE 16
+    - /us givespawner {player} IRON_GOLEM 32
+  ultron-plus:
+    delay: 84600
+    items:
+    - goldencarrot 64
+    - diamondshovel 1 name:&r&4&l[Ultron&d&l+&4&l]_&fShovel dig_speed:5 durability:5
+    - diamondaxe 1 name:&r&4&l[Ultron&d&l+&4&l]_&fAxe dig_speed:5 durability:5
+    - diamondpickaxe 1 name:&r&4&l[Ultron&d&l+&4&l]_&fPickaxe dig_speed:5 durability:5
+    - diamondsword 1 name:&r&4&l[Ultron&d&l+&4&l]_&fSword damage_all:5 durability:5
+    - diamondboots 1 name:&r&4&l[Ultron&d&l+&4&l]_&fBoots protection_environmental:10
+      durability:5
+    - diamondleggings 1 name:&r&4&l[Ultron&d&l+&4&l]_&fLeggings protection_environmental:10
+      durability:5
+    - diamondchestplate 1 name:&r&4&l[Ultron&d&l+&4&l]_&fChestplate protection_environmental:10
+      durability:5
+    - diamondhelmet 1 name:&r&4&l[Ultron&d&l+&4&l]_&fHelmet protection_environmental:10
+      durability:5
+    - chest 12 name:&6&lXP_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_experience_&8(0-4000)&7!
+    - enderchest 4 name:&6&lTier_III_Money_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_a_random_amount_of_money!
+    - dye 3 name:&f&lBlack_Scroll lore:&7Removes_a_random_enchantment|&7from_an_item_and_converts|&7it_into_a_&f100%_&7success_book.|&fPlace_scroll_onto_item_to_extract.
+      itemflags:HIDE_ATTRIBUTES,HIDE_POTION_EFFECTS
+    - emptymap 3 name:&fWhite_Scroll lore:&fPrevents_an_item_from_being_destroyed|&fdue_to_a_failed_Enchantment_Book.|&ePlace_scroll_on_item_to_apply.
+    - ironblock 64
+    - ironblock 64
+    - goldblock 64
+    - goldblock 64
+    - diamondblock 32
+    - diamondblock 64
+    - emeraldblock 32
+    - emeraldblock 64
+    - goldenapple 32
+    - /crates givephys {player} legendary 8
+    - /crates givephys {player} rare 8
+    - /crates givephys {player} common 8
+    - /us givespawner {player} villager 16
+    - /us givespawner {player} ghast 16
+    - /us givespawner {player} MAGMA_CUBE 32
+    - /us givespawner {player} IRON_GOLEM 64
+  partner:
+    delay: 84600
+    items:
+    - goldencarrot 64
+    - diamondshovel 1 name:&r&d&l[Partner]_&fShovel dig_speed:5 durability:5
+    - diamondaxe 1 name:&r&d&l[Partner]_&fAxe dig_speed:5 durability:5
+    - diamondpickaxe 1 name:&r&d&l[Partner]_&fPickaxe dig_speed:5 durability:5
+    - diamondsword 1 name:&r&d&l[Partner]_&fSword damage_all:5 durability:5
+    - diamondboots 1 name:&r&d&l[Partner]_&fBoots protection_environmental:10 durability:5
+    - diamondleggings 1 name:&r&d&l[Partner]_&fLeggings protection_environmental:10
+      durability:5
+    - diamondchestplate 1 name:&r&d&l[Partner]_&fChestplate protection_environmental:10
+      durability:5
+    - diamondhelmet 1 name:&r&d&l[Partner]_&fHelmet protection_environmental:10 durability:5
+    - enderchest 4 name:&6&lTier_III_Money_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_a_random_amount_of_money!
+    - chest 12 name:&6&lXP_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_experience_&8(0-4000)&7!
+    - emptymap 3 name:&fWhite_Scroll lore:&fPrevents_an_item_from_being_destroyed|&fdue_to_a_failed_Enchantment_Book.|&ePlace_scroll_on_item_to_apply.
+    - dye 3 name:&f&lBlack_Scroll lore:&7Removes_a_random_enchantment|&7from_an_item_and_converts|&7it_into_a_&f100%_&7success_book.|&fPlace_scroll_onto_item_to_extract.
+      itemflags:HIDE_ATTRIBUTES,HIDE_POTION_EFFECTS
+    - goldenapple 32
+    - ironblock 64
+    - ironblock 64
+    - goldblock 64
+    - goldblock 64
+    - diamondblock 32
+    - diamondblock 64
+    - emeraldblock 32
+    - emeraldblock 64
+    - /crates givephys {player} legendary 8
+    - /crates givephys {player} rare 8
+    - /crates givephys {player} common 8
+    - /us givespawner {player} villager 16
+    - /us givespawner {player} ghast 16
+    - /us givespawner {player} MAGMA_CUBE 32
+    - /us givespawner {player} IRON_GOLEM 64
+  firstjoin:
+    delay: -1
+    items:
+    - beef 64
+    - ironshovel 1 name:&r&7[Member]_&fShovel dig_speed:1
+    - ironaxe 1 name:&r&7[Member]_&fAxe dig_speed:1
+    - ironpickaxe 1 name:&r&7[Member]_&fPickaxe dig_speed:1
+    - ironsword 1 name:&r&7[Member]_&fSword damage_all:1
+    - ironboots 1 name:&r&7[Member]_&fBoots protection_environmental:1
+    - ironleggings 1 name:&r&7[Member]_&fLeggings protection_environmental:1
+    - ironchestplate 1 name:&r&7[Member]_&fChestplate protection_environmental:1
+    - ironhelmet 1 name:&r&7[Member]_&fHelmet protection_environmental:1
+    - ironblock 4
+    - dirt 64
+    - cobblestone 64
+    - grass 64
+    - coal 8
+    - ironingot 8
+    - emerald 5
+    - diamond 5
+    - goldingot 8
+    - goldblock 2
+    - enderchest 1 name:&2&lTier_I_Money_Pouch_&r&7(Right_Click) lore:&7Open_this_pouch_to_receive_a_random_amount_of_money!

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 73.65.29.201
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665538476546
+  login: 1665536824169
+money: '191000'
+last-account-name: cleshay
+logoutlocation:
+  world: 49ed2312-cc54-42c0-8563-4ea965ed4407
+  world-name: world
+  x: 1335.7201627490697
+  y: 57.0
+  z: -280.0057593405236
+  yaw: 294.294921875
+  pitch: 17.143129348754883

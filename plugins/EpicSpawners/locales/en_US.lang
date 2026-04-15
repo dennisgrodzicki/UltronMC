@@ -1,0 +1,121 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicSpawners&8]'
+    exit: '&cExit'
+    next: '&9Next'
+    back: '&9Back'
+    confirm: '&a&lConfirm'
+    currency: '$'
+    omni: 'Omni'
+
+# Interface Messages
+
+interface:
+  spawner:
+    upgradewithlevels: '&aUpgrade with Levels'
+    upgradewithlevelslore: '&7Cost: &a%cost% Levels'
+    upgradewitheconomy: '&aUpgrade with ECO'
+    upgradewitheconomylore: '&7Cost: &a%cost%'
+    statstitle: '&6Spawner Stats'
+    stats: '&7Spawned &6%amount% &7times so far.'
+    onlyspawnson: '&7Only spawns on &6%block%&7.'
+    boost: '&7Click to &6Boost'
+    cantboost: '&cCannot boost.'
+    convert: '&7Click to &6Convert'
+    boostedstats: '&a&lCurrently boosted!|&7Adding &6%amount% &7extra to every spawn.|&7Expires in &6%time%&7.'
+    boostednever: never
+    tutorialtitle: '&a&lUseful Information'
+    tutorial: '{[LEVELUP]You can stack or ''levelup'' this spawner by: [Using another spawner on this spawner][Leveling up with XP][Leveling up with ECONOMY].}|{[DROP]A <TYPE> spawner will drop when you kill <AMT> [natural ]<TYPE>''s}|{[OMNI][Stacking spawners of different types will create an OmniSpawner].}|{[WATER][Spawners will repel water].}|{[REDSTONE][You can disable this spawner by applying redstone power to it.]}'
+    howtonext: '&aClick to go to the next page.'
+    howtoback: '&aClick to go back to the first page.'
+    paused: '&6Spawning Paused Due To:'
+    conditionBiome1: Not being placed in a &6%biome%&7 biome.
+    conditionBiome2: Not being placed in the correct biome.
+    conditionHeight: The Y coordinate not being between &6%min%&7 and &6%max%&7.
+    conditionLight: Lacking &6light&7.
+    conditionDark: Lacking &6darkness&7.
+    conditionNearbyEntities: There are more than &6%max%&7 entities around this spawner.
+    conditionNearbyPlayers: There are less than &6%amount%&7 players within &6%distance%&7 blocks away from this spawner.
+    conditionStorm: There is no storm.
+  tiers:
+    title: 'Omni Spawner'
+  convert:
+    title: Spawner Convert
+    lore: '&7Click here to Convert.'
+  shop:
+    title: Spawner Shop
+    spawnershoptitle: '&8Buy a %type%'
+    buyprice: '&7Buy Price: &a%cost%'
+    lore: '&7Click here to purchase.'
+    add1: '&a&lAdd 1'
+    add10: '&a&lAdd 10'
+    set1: '&c&lSet to 1'
+    set64: '&a&lSet to 64'
+    remove1: '&c&lRemove 1'
+    remove10: '&c&lRemove 10'
+  spawnerstats:
+    title: '&5&lSpawnerStats'
+    prefix: '&7Your current spawner stats:'
+    nokills: '&7You currently have no mob kills. Go kill something!'
+  boost:
+    title: '&8Boosting %spawner% &8by %amount%'
+    cost: '&7Costs &6&l%cost%.'
+    boostfor: '&7&lBoost for &6&l%amount% &7&lMinutes'
+
+# Command Messages
+
+command:
+  give:
+    success: '&7You have been given %amount% &6%type%&7.'
+
+# Event Messages
+
+event:
+  general:
+    nopermission: '&cYou do not have permission to do that.'
+    protected: '&cThis spawner is protected and you cannot interact with it.'
+  upgrade:
+    cannotafford: '&cYou cannot afford this upgrade.'
+    success: '&7You''ve upgraded this spawner to &6%size%x&7.'
+    maxed: '&7This spawner is maxed out.'
+    successmaxed: '&7You maxed out this spawner at &6%size%x&7.'
+  tierup:
+    success: '&7You''ve unlocked the &6%tier%x&7.'
+  downgrade:
+    success: '&7You''ve downgraded this spawner to &6%size%x&7.'
+  block:
+    place: '&7You placed a &6%type%&7.'
+    broken: This spawner type has been removed and you cannot place it.
+    chargeplace: '&7You will be charged &6%cost% &7if you do not break this spawner within 1 minute.'
+    break: '&7You broke a &6%type%&7.'
+    chargebreak: '&7You will be charged &6%cost% &7for breaking this spawner. Break again to confirm.'
+    blacklisted: '&cThat action is disabled.'
+    omnitake: '&7You took a &6%type%&7 from the OmniSpawner.'
+    forcedeny: '&cThis spawner is too close to another spawner.'
+    mergedistance: '&7This spawner has been combined with another spawner close by.'
+    chunklimit: '&cNo more than &4%amount% spawners &ccan be placed in this chunk.'
+    cannotbreak: '&7You cannot afford to break this spawner.'
+  goal:
+    alert: '&7You need &6%goal% &7more kills to get a &6%type% Spawner&7.'
+    reached: '&7A &6%type% Spawner &7has been dropped!'
+  egg:
+    needmore: '&7You need &6%amount% &7Monster Eggs to convert this spawner.'
+    sametype: '&7This already spawns &6%type%s&7.'
+  shop:
+    cannotafford: '&cYou cannot afford to buy this.'
+    purchasesuccess: '&9Your purchase was successful.'
+  omni:
+    cannotmerge: '&cYou can''t merge two OmniSpawners.'
+    combinefail: '&cThe omni spawner refuses to absorb any more spawners of that type.'
+    combinesuccess: '&7Your spawner was absorbed into the OmniSpawner.'
+    takespawner: '&7You took a &6%type%&7 from the OmniSpawner.'
+  convert:
+    success: '&7Your conversion was successful.'
+  boost:
+    applied: '&6Your boost has been applied.'
+  combine:
+    onlyone: '&cYou can only combine one spawner at a time.'
+  spawner:
+    toomany: '&cYou can only place &4%amount% &cspawners...'

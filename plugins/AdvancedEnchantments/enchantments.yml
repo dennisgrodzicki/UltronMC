@@ -1,0 +1,1086 @@
+# << Example configuration >>
+#lastchance:    <-- Enchantment name
+#  display: "%group-color%Last Chance"    <-- Display in item lore
+#  description: "Has a chance to heal when on low hearts"    <-- Enchantment Description
+#  applies-to: "Chestplate"    <-- What applies to (display purposes)
+#  type: "DEFENSE"    <-- Enchantment type (controls when enchantment activates)
+#  group: "COMMON"    <-- Enchantment group (For enchanter and right-click random books)
+#  settings:
+#    required-enchants:
+#      - "springs:1" # Can require specific level
+#      - "gears"
+#    not-applyable-with:
+#      - "frozen"
+#  applies:    <-- List of items that it applies
+#    - ALL_CHESTPLATE    <-- Item(s) list
+#  levels:    < -- All Levels are under here
+#    1:     <-- Level indicator
+#      chance: 30    <-- Chance for enchantment to activate
+#      condition: "%victim health% > 5 : %stop%"    <-- Condition (read more about it at Conditions)
+#      effects:    <-- All enchantment effects
+#        - "ADD_HEALTH:2 %victim%"    <-- Effect(s) list
+
+#  Display (String) (No spaces or enchantment will break)
+#    Determines how will enchantment look in item lore
+
+#  Applies-to (String)
+#    Display used in Custom Enchantment books for %description% variable
+
+#  Group (Setting)
+#    INFO: Create enchantment groups in config.yml under enchanter configuration.
+#   Enchantment groups are used for enchanter, to sell specific type books. You can group them
+#   and add a group-wide color, then obtain it with variable %group-color% (shown in example enchantments below).
+
+#  Enchantment Types List: https://ae.advancedplugins.net/enchantments/creating-enchantments/type-list
+
+#  Applies (Material)
+#    Determines which items will have the effects
+#    Latest Materials list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#    NOTICE: You can use "LEATHER_ARMOR, IRON_ARMOR, CHAIN_ARMOR, GOLD_ARMOR or DIAMOND_ARMOR" to
+#    to instantly add availability for all specific armor type pieces.
+#    Use "ALL_ARMOR" to add all armor pieces.
+#    Use "ALL_HELMET" to add all helmets.
+#    Use "ALL_CHESTPLATE" to add all chestplates.
+#    Use "ALL_BOOTS" to add all boots.
+#    Use "ALL_SWORD" to add all swords.
+#    Use "ALL_PICKAXE" to add all pickaxes.
+#    Use "ALL_AXE" to add all axes.
+#    Use "ALL_EDIBLE" to add all foods.
+#    And so on, but make sure to use non plural names of items!
+
+#  Levels (Numbers)
+#    Effects for each level, use as display in examples.
+
+#  Enchantment Effect List: https://ae.advancedplugins.net/enchantments/creating-enchantments/effect-list
+
+#        # You can use tags <random word>word1,word2,word3</random word>, it will get a random word from listed words.
+#        # You can use tags <random number>x-y</random number> while x < y, it will generate a random number between two given integers.
+#        # e.g.: "STEAL_MONEY:<random number>10000-50000</random number>"
+#        # Use <chance>x</chance> to set per-effect chance, x being a chance percentage.
+#        # e.g.: "POTION:SPEED:1:100 %attacker% <chance>25</chance>"
+
+#        # You also may use %victim% or %attacker% flag to give effects to different players (in ATTACK, BOW, DEATH, KILL_PLAYER and DEFENSE types).
+#        # Example usage: - "POTION:POISON:1:50 %attacker%', this will give Level 2 POISON potion effect to the player who attacked.
+#        # If none is provided, effects will be given to the player who had custom enchanted item.
+#        # You can add %combo% instead of numbers, to use number of combo's player has (eg. to limit combo number: "%combo% > 0 && %combo% < 5 : %continue%')
+#        # You can add %damage% instead of numbers, to use number of damage has been done (for ATTACK and DEFENSE)
+
+#  Area of effect: https://ae.advancedplugins.net/enchantments/radius-of-effect-enchantments
+#  Conditions:  https://ae.advancedplugins.net/enchantments/enchantment-conditions
+
+# Settings for enchantments
+# *** This is not a required configuration section and each enchantment doesn't need to have it ***
+#  settings:
+#    required-enchants:
+#      - "springs"
+#    not-applyable-with:
+#      - "frozen"
+#    removeable: false # Makes enchantment non-removeable with blackscrolls
+#    disable-in-enchanter: true # Players can no longer obtain enchantment from Enchanter
+#    disabled-worlds: # List worlds in which enchantment will not work (cAsE sEnSiTiVe)
+#      - "My_World"
+aquatic:
+  display: "%group-color%Aquatic"
+  description: "Breathe underwater."
+  applies-to: "Helmets"
+  type: "EFFECT_STATIC"
+  group: "SIMPLE"
+  applies:
+    - ALL_HELMET
+  levels:
+    1:
+      effects:
+        - "POTION:WATER_BREATHING:0"
+smelting:
+  display: "%group-color%Smelting"
+  description: "Chance to smelt mined blocks."
+  applies-to: "Pickaxes"
+  type: "MINING"
+  group: "SIMPLE"
+  applies:
+    - ALL_PICKAXE
+    - ALL_SHOVEL
+  levels:
+    1:
+      chance: 33
+      effects:
+        - "SMELT"
+    2:
+      chance: 66
+      effects:
+        - "SMELT"
+    3:
+      chance: 100
+      effects:
+        - "SMELT"
+experience:
+  display: "%group-color%Experience"
+  description: "Chance to get more experience from ores."
+  applies-to: "Tools"
+  type: "MINING"
+  group: "SIMPLE"
+  applies:
+    - ALL_PICKAXE
+    - ALL_SPADE
+    - ALL_AXE
+  levels:
+    1:
+      chance: 15
+      cooldown: 1
+      condition: "%block type% contains ORE : %allow%"
+      effects:
+        - "EXP:<random number>2-5</random number>"
+    2:
+      chance: 30
+      cooldown: 2
+      condition: "%block type% contains ORE : %allow%"
+      effects:
+        - "EXP:<random number>2-5</random number>"
+    3:
+      chance: 45
+      cooldown: 3
+      condition: "%block type% contains ORE : %allow%"
+      effects:
+        - "EXP:<random number>2-5</random number>"
+    4:
+      chance: 60
+      cooldown: 4
+      condition: "%block type% contains ORE : %allow%"
+      effects:
+        - "EXP:<random number>2-5</random number>"
+    5:
+      chance: 75
+      cooldown: 5
+      condition: "%block type% contains ORE : %allow%"
+      effects:
+        - "EXP:<random number>2-5</random number>"
+haste:
+  display: "%group-color%Haste"
+  description: "Allows you to swing your tools faster."
+  applies-to: "Tools"
+  type: "HELD"
+  group: "FABLED"
+  applies:
+    - ALL_PICKAXE
+    - ALL_SPADE
+    - ALL_AXE
+  levels:
+    1:
+      effects:
+        - "POTION:FAST_DIGGING:0"
+    2:
+      effects:
+        - "POTION:FAST_DIGGING:1"
+    3:
+      effects:
+        - "POTION:FAST_DIGGING:2"
+glowing:
+  display: "%group-color%Glowing"
+  description: "Gives permanent night vision."
+  applies-to: "Helmet"
+  type: "EFFECT_STATIC"
+  group: "SIMPLE"
+  applies:
+    - ALL_HELMET
+  levels:
+    1:
+      effects:
+        - "POTION:NIGHT_VISION:0"
+epicness:
+  display: "%group-color%Epicness"
+  description: "Gives particles and sound effects."
+  applies-to: "Swords"
+  type: "ATTACK;ATTACK_MOB"
+  group: "SIMPLE"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 20
+      cooldown: 3
+      effects:
+        - "PARTICLE:SMOKE_LARGE:50:1 %victim%"
+        - "PLAY_SOUND:ENTITY_GHAST_SCREAM"
+    2:
+      chance: 40
+      cooldown: 3
+      effects:
+        - "PARTICLE:SMOKE_LARGE:50:1 %victim%"
+        - "PLAY_SOUND:ENTITY_GHAST_SCREAM"
+    3:
+      chance: 60
+      cooldown: 3
+      effects:
+        - "PARTICLE:SMOKE_LARGE:50:1 %victim%"
+        - "PLAY_SOUND:ENTITY_GHAST_SCREAM"
+featherweight:
+  display: "%group-color%Featherweight"
+  description: "Chance to get a burst of haste."
+  applies-to: "Swords, Axes"
+  type: "ATTACK;ATTACK_MOB"
+  group: "UNIQUE"
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    1:
+      chance: 35
+      cooldown: 2
+      effects:
+        - "POTION:FAST_DIGGING:0:60"
+    2:
+      chance: 55
+      cooldown: 2
+      effects:
+        - "POTION:FAST_DIGGING:1:80"
+    3:
+      chance: 75
+      cooldown: 2
+      effects:
+        - "POTION:FAST_DIGGING:2:100"
+veinminer:
+  display: "%group-color%Vein Miner"
+  description: "Mine entire vein of ores"
+  applies-to: "Pickaxes"
+  group: "ELITE"
+  type: "MINING"
+  applies:
+    - ALL_PICKAXE
+  levels:
+    1:
+      chance: 15
+      cooldown: 4
+      effects:
+        - "VEIN_MINE"
+    2:
+      chance: 35
+      cooldown: 3
+      effects:
+        - "VEIN_MINE"
+    3:
+      effects:
+        - "VEIN_MINE"
+telepathy:
+  display: "%group-color%Telepathy"
+  description: "Automatically places blocks broken\nby tools in your inventory."
+  applies-to: "Tools"
+  type: "MINING"
+  group: "UNIQUE"
+  applies:
+    - ALL_TOOLS
+  levels:
+    1:
+      chance: 40
+      effects:
+        - "TP_DROPS"
+    2:
+      chance: 60
+      effects:
+        - "TP_DROPS"
+    3:
+      chance: 80
+      effects:
+        - "TP_DROPS"
+    4:
+      effects:
+        - "TP_DROPS"
+enderslayer:
+  display: "%group-color%Ender Slayer"
+  description: "Increases damage dealt to Enderman and Ender dragons."
+  applies-to: "Weapons"
+  type: "ATTACK_MOB"
+  group: "ELITE"
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    1:
+      chance: 16
+      cooldown: 2
+      condition:
+        - "%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    2:
+      chance: 21
+      cooldown: 2
+      condition:
+        - "%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    3:
+      chance: 29
+      cooldown: 2
+      condition:
+        - "%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    4:
+      chance: 34
+      cooldown: 2
+      condition:
+        - "%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    5:
+      chance: 41
+      cooldown: 2
+      condition:
+        - "%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+deathpunch:
+  display: "%group-color%Death Punch"
+  description: "Increases damage dealt to Zombies."
+  applies-to: "Swords, Axes"
+  type: "ATTACK_MOB"
+  group: "UNIQUE"
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    1:
+      chance: 16
+      cooldown: 2
+      condition:
+        - "%mob type% = ZOMBIE : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    2:
+      chance: 20
+      cooldown: 2
+      condition:
+        - "%mob type% = ZOMBIE : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    3:
+      chance: 40
+      cooldown: 2
+      condition:
+        - "%mob type% = ZOMBIE : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    4:
+      chance: 60
+      cooldown: 1
+      condition:
+        - "%mob type% = ZOMBIE : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    5:
+      chance: 80
+      condition:
+        - "%mob type% = ZOMBIE : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+bonecrusher:
+  display: "%group-color%Bone Crusher"
+  description: "Increases damage dealt to Skeletons."
+  applies-to: "Swords, Axes"
+  type: "ATTACK_MOB"
+  group: "UNIQUE"
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    1:
+      chance: 25
+      cooldown: 2
+      condition:
+        - "%mob type% = SKELETON : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    2:
+      chance: 50
+      cooldown: 2
+      condition:
+        - "%mob type% = SKELETON : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    3:
+      chance: 75
+      cooldown: 1
+      condition:
+        - "%mob type% = SKELETON : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+immolate:
+  display: "%group-color%Immolate"
+  description: "Increases damage dealt to Spiders."
+  applies-to: "Swords, Axes"
+  type: "ATTACK_MOB"
+  group: "ELITE"
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    1:
+      chance: 25
+      cooldown: 2
+      condition:
+        - "%mob type% = SPIDER : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    2:
+      chance: 50
+      cooldown: 2
+      condition:
+        - "%mob type% = SPIDER : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    3:
+      chance: 75
+      condition:
+        - "%mob type% = SPIDER : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+slayer:
+  display: "%group-color%Slayer"
+  description: "Increases damage dealt to Passive Mobs."
+  applies-to: "Swords, Axes"
+  type: "ATTACK_MOB"
+  group: "UNIQUE"
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    1:
+      chance: 25
+      cooldown: 2
+      condition:
+        - "%is hostile% = false : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    2:
+      chance: 50
+      cooldown: 2
+      condition:
+        - "%is hostile% = false : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    3:
+      chance: 75
+      condition:
+        - "%is hostile% = false : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    4:
+      condition:
+        - "%is hostile% = false : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+beastslayer:
+  display: "%group-color%Beastslayer"
+  description: "Increases damage dealt to Hostile Mobs."
+  applies-to: "Swords, Axes"
+  type: "ATTACK_MOB"
+  group: "LEGENDARY"
+  settings:
+    newVersionsOnly: false # Only load this enchantment if server version is 1.13 or higher
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    1:
+      chance: 25
+      cooldown: 2
+      condition:
+        - "%is hostile% = true : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    2:
+      chance: 50
+      cooldown: 2
+      condition:
+        - "%is hostile% = true : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    3:
+      chance: 75
+      condition:
+        - "%is hostile% = true : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    4:
+      condition:
+        - "%is hostile% = true : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+netherslayer:
+  display: "%group-color%Nether Slayer"
+  description: "Increases damage dealt to nether mobs."
+  applies-to: "Weapons"
+  type: "ATTACK_MOB"
+  group: "ELITE"
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    1:
+      chance: 16
+      cooldown: 2
+      condition:
+        - "%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIE or %mob type% = GHAST : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    2:
+      chance: 21
+      cooldown: 2
+      condition:
+        - "%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIE or %mob type% = GHAST : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    3:
+      chance: 29
+      cooldown: 2
+      condition:
+        - "%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIE or %mob type% = GHAST : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    4:
+      chance: 34
+      cooldown: 2
+      condition:
+        - "%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIE or %mob type% = GHAST : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    5:
+      chance: 41
+      cooldown: 2
+      condition:
+        - "%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIE or %mob type% = GHAST : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+reforged:
+  display: "%group-color%Reforged"
+  description: "Protects weapons and tools durability, items will be take\nlonger to break."
+  applies-to: "Weapons and tools"
+  type: "ATTACK_MOB;MINING"
+  group: "ELITE"
+  applies:
+    - ALL_AXE
+    - ALL_SWORD
+    - ALL_PICKAXE
+    - ALL_SPADE
+  levels:
+    1:
+      chance: 10
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+    2:
+      chance: 20
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+    3:
+      chance: 30
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+    4:
+      chance: 40
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+    5:
+      chance: 50
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+    6:
+      chance: 60
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+    7:
+      chance: 70
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+    8:
+      chance: 80
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+    9:
+      chance: 90
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+    10:
+      effects:
+        - "ADD_DURABILITY_ITEM:-1"
+springs:
+  display: "%group-color%Springs"
+  description: "Gives jump boost."
+  applies-to: "Boots"
+  type: "EFFECT_STATIC"
+  group: "ELITE"
+  applies:
+    - ALL_BOOTS
+  levels:
+    1:
+      effects:
+        - "POTION:JUMP:0"
+    2:
+      effects:
+        - "POTION:JUMP:1"
+    3:
+      effects:
+        - "POTION:JUMP:2"
+timber:
+  display: "%group-color%Timber"
+  description: "Chance to break a tree in one hit"
+  applies-to: "Axes"
+  group: "ULTIMATE"
+  type: "MINING"
+  applies:
+    - "ALL_AXE"
+  levels:
+    1:
+      chance: 15
+      cooldown: 5
+      effects:
+        - "BREAK_TREE"
+    2:
+      chance: 35
+      cooldown: 5
+      effects:
+        - "BREAK_TREE"
+    3:
+      chance: 55
+      cooldown: 6
+      effects:
+        - "BREAK_TREE"
+ambit:
+  display: "%group-color%Ambit"
+  description: "Damages mobs within a radius\nthat increases with the level of enchant."
+  applies-to: "Swords, Axes"
+  type: "ATTACK"
+  group: "ULTIMATE"
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    1:
+      chance: 4
+      cooldown: 8
+      effects:
+        - "ADD_HARM:<random number>1-2</random number> <aoe> radius=1 target=mobs </aoe>"
+    2:
+      chance: 5
+      cooldown: 8
+      effects:
+        - "ADD_HARM:<random number>1-2</random number> <aoe> radius=2 target=mobs </aoe>"
+    3:
+      chance: 6
+      cooldown: 9
+      effects:
+        - "ADD_HARM:<random number>1-3</random number> <aoe> radius=3 target=mobs </aoe>"
+    4:
+      chance: 7
+      cooldown: 9
+      effects:
+        - "ADD_HARM:<random number>1-3</random number> <aoe> radius=4 target=mobs </aoe>"
+    5:
+      chance: 9
+      cooldown: 10
+      effects:
+        - "ADD_HARM:<random number>2-3</random number> <aoe> radius=5 target=mobs </aoe>"
+    6:
+      chance: 12
+      cooldown: 12
+      effects:
+        - "ADD_HARM:<random number>2-3</random number> <aoe> radius=6 target=mobs </aoe>"
+    7:
+      chance: 15
+      cooldown: 14
+      effects:
+        - "ADD_HARM:<random number>2-3</random number> <aoe> radius=7 target=mobs </aoe>"
+implants:
+  display: "%group-color%Implants"
+  description: "Chance to restore food every few seconds."
+  applies-to: "Helmets"
+  type: "REPEATING"
+  time: 5
+  group: "ULTIMATE"
+  applies:
+    - ALL_HELMET
+  levels:
+    1:
+      chance: 90
+      effects:
+        - "ADD_FOOD:1"
+    2:
+      chance: 90
+      effects:
+        - "ADD_FOOD:1"
+    3:
+      chance: 100
+      effects:
+        - "ADD_FOOD:1"
+obsidianshield:
+  display: "%group-color%Obsidianshield"
+  description: "Gives permanent fire resistance."
+  applies-to: "Armor"
+  type: "EFFECT_STATIC"
+  group: "ULTIMATE"
+  applies:
+    - ALL_ARMOR
+  levels:
+    1:
+      effects:
+        - "POTION:FIRE_RESISTANCE:0"
+lavawalker:
+  display: "%group-color%Lava Walker"
+  description: "Walk on Lava."
+  applies-to: "Boots"
+  type: "EFFECT_STATIC"
+  group: "LEGENDARY"
+  applies:
+    - ALL_BOOTS
+  levels:
+    1:
+      effects:
+        - "LAVA_WALKER"
+waterwalker:
+  display: "%group-color%Water Walker"
+  description: "Walk on Water."
+  applies-to: "Boots"
+  type: "EFFECT_STATIC"
+  group: "LEGENDARY"
+  applies:
+    - ALL_BOOTS
+  levels:
+    1:
+      effects:
+        - "WATER_WALKER"
+doublestrike:
+  display: "%group-color%Double Strike"
+  description: "A chance to strike twice."
+  applies-to: "Swords"
+  type: "ATTACK;ATTACK_MOB"
+  group: "LEGENDARY"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 8
+      cooldown: 15
+      effects:
+        - "WAIT:20"
+        - "ADD_HARM:%damage% %victim%"
+        - "BLOOD %victim%"
+    2:
+      chance: 13
+      cooldown: 15
+      effects:
+        - "WAIT:20"
+        - "ADD_HARM:%damage% %victim%"
+        - "BLOOD %victim%"
+    3:
+      chance: 19
+      cooldown: 15
+      effects:
+        - "WAIT:20"
+        - "ADD_HARM:%damage% %victim%"
+        - "BLOOD %victim%"
+gears:
+  display: "%group-color%Gears"
+  description: "Added speed when equipped."
+  applies-to: "Boots"
+  type: "EFFECT_STATIC"
+  group: "LEGENDARY"
+  applies:
+    - ALL_BOOTS
+  levels:
+    1:
+      effects:
+        - "POTION:SPEED:0"
+    2:
+      effects:
+        - "POTION:SPEED:1"
+    3:
+      effects:
+        - "POTION:SPEED:2"
+immolation:
+  display: "%group-color%Immolation"
+  description: "Set all mobs in radius on fire."
+  applies-to: "Swords"
+  group: "ULTIMATE"
+  type: "ATTACK_MOB"
+  applies:
+    - "ALL_SWORD"
+  levels:
+    1:
+      chance: 10
+      cooldown: 4
+      effects:
+        - "PARTICLE:FALLING_LAVA:5:0 <aoe> radius=2 target=mobs </aoe>"
+        - "FLAME:40 <aoe> radius=2 target=mobs </aoe>"
+    2:
+      chance: 12
+      cooldown: 5
+      effects:
+        - "PARTICLE:FALLING_LAVA:5:0 <aoe> radius=4 target=mobs </aoe>"
+        - "FLAME:50 <aoe> radius=6 target=mobs </aoe>"
+    3:
+      chance: 16
+      cooldown: 5
+      effects:
+        - "PARTICLE:FALLING_LAVA:5:0 <aoe> radius=4 target=mobs </aoe>"
+        - "FLAME:60 <aoe> radius=4 target=mobs </aoe>"
+killaura:
+  display: "%group-color%Kill Aura"
+  description: "Chance to kill multiple\nmonsters in radius."
+  applies-to: "Swords"
+  group: "LEGENDARY"
+  type: "ATTACK_MOB"
+  applies:
+    - "ALL_SWORD"
+  levels:
+    1:
+      chance: 5
+      cooldown: 3
+      effects:
+        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=2 target=mobs </aoe>"
+        - "KILL_MOB:1 <aoe> radius=2 target=mobs </aoe>"
+    2:
+      chance: 8
+      cooldown: 4
+      effects:
+        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=2 target=mobs </aoe>"
+        - "KILL_MOB:1 <aoe> radius=2 target=mobs </aoe>"
+    3:
+      chance: 12
+      cooldown: 5
+      effects:
+        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=3 target=mobs </aoe>"
+        - "KILL_MOB:1 <aoe> radius=3 target=mobs </aoe>"
+    4:
+      chance: 15
+      cooldown: 5
+      effects:
+        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=3 target=mobs </aoe>"
+        - "KILL_MOB:1 <aoe> radius=3 target=mobs </aoe>"
+    5:
+      chance: 18
+      cooldown: 6
+      effects:
+        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=4 target=mobs </aoe>"
+        - "KILL_MOB:1 <aoe> radius=4 target=mobs </aoe>"
+inquisitive:
+  display: "%group-color%Inquisitive"
+  description: "Chance to increase EXP drops from mobs."
+  applies-to: "Swords"
+  type: "KILL_MOB"
+  group: "LEGENDARY"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 30
+      cooldown: 4
+      effects:
+        - "EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> %victim%"
+    2:
+      chance: 35
+      cooldown: 4
+      effects:
+        - "EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> %victim%"
+    3:
+      chance: 40
+      cooldown: 4
+      effects:
+        - "EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> %victim%"
+    4:
+      chance: 55
+      cooldown: 3
+      effects:
+        - "EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> %victim%"
+overload:
+  display: "%group-color%Overload"
+  description: "Unlocks additional hearts."
+  applies-to: "Armor"
+  type: "EFFECT_STATIC"
+  group: "LEGENDARY"
+  applies:
+    - ALL_ARMOR
+  levels:
+    1:
+      effects:
+        - "POTION:HEALTH_BOOST:0"
+    2:
+      effects:
+        - "POTION:HEALTH_BOOST:1"
+    3:
+      effects:
+        - "POTION:HEALTH_BOOST:2"
+suspend:
+  display: "%group-color%Suspend"
+  description: "Cause no knockback to mobs."
+  applies-to: "Swords"
+  type: "ATTACK_MOB"
+  group: "ELITE"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      effects:
+        - "STOP_KNOCKBACK %victim%"
+    2:
+      effects:
+        - "STOP_KNOCKBACK %victim%"
+    3:
+      effects:
+        - "STOP_KNOCKBACK %victim%"
+nightowl:
+  display: "%group-color%Night Owl"
+  description: "Deal more damage to mobs at night."
+  applies-to: "Swords"
+  type: "ATTACK_MOB"
+  group: "ULTIMATE"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 40
+      condition: "%time% > 12300 or %time% < 23850 : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:25"
+    2:
+      chance: 60
+      condition: "%time% > 12300 or %time% < 23850 : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:35"
+    3:
+      chance: 80
+      condition: "%time% > 12300 or %time% < 23850 : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:45"
+launch:
+  display: "%group-color%Launch"
+  description: "Launch yourself by right-clicking."
+  applies-to: "Swords"
+  type: "RIGHT_CLICK"
+  group: "LEGENDARY"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 20
+      cooldown: 15
+      effects:
+        - "BOOST:UP:8"
+        - "PARTICLE:CLOUD:20:2"
+    2:
+      chance: 27
+      cooldown: 15
+      effects:
+        - "BOOST:UP:9"
+        - "PARTICLE:CLOUD:20:2"
+    3:
+      chance: 35
+      cooldown: 10
+      effects:
+        - "BOOST:UP:10"
+        - "PARTICLE:CLOUD:20:2"
+diploid:
+  display: "%group-color%Diploid"
+  description: "Chance to multiply mob drops.\nCosts 5 souls / activation."
+  applies-to: "Swords"
+  type: "ATTACK_MOB"
+  group: "FABLED"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 15
+      cooldown: 5
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+    2:
+      chance: 20
+      cooldown: 5
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+    3:
+      chance: 25
+      cooldown: 6
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+    4:
+      chance: 28
+      cooldown: 7
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+    5:
+      chance: 30
+      cooldown: 8
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+multiplication:
+  display: "%group-color%Multiplication"
+  description: "Chance to multiply ore drops.\nCosts 5 souls / activation."
+  applies-to: "Pickaxe"
+  type: "MINING"
+  group: "FABLED"
+  applies:
+    - ALL_PICKAXE
+  levels:
+    1:
+      chance: 15
+      cooldown: 5
+      condition: "%block type% contains ORE : %allow%"
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+    2:
+      chance: 20
+      cooldown: 5
+      condition: "%block type% contains ORE : %allow%"
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+    3:
+      chance: 25
+      cooldown: 6
+      condition: "%block type% contains ORE : %allow%"
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+    4:
+      chance: 28
+      cooldown: 7
+      condition: "%block type% contains ORE : %allow%"
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+    5:
+      chance: 30
+      cooldown: 8
+      condition: "%block type% contains ORE : %allow%"
+      souls: 5
+      effects:
+        - "MORE_DROPS:1"
+soulgrind:
+  display: "%group-color%Soulgrind"
+  description: "Chance to get souls by killing mobs."
+  applies-to: "Swords"
+  type: "KILL_MOB"
+  group: "FABLED"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 30
+      effects:
+        - "ADD_SOULS:1"
+        - "PARTICLE:HEART:1:0"
+    2:
+      chance: 60
+      effects:
+        - "ADD_SOULS:1"
+        - "PARTICLE:HEART:1:0"
+    3:
+      chance: 90
+      effects:
+        - "ADD_SOULS:1"
+        - "PARTICLE:HEART:1:0"

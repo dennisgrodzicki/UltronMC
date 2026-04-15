@@ -1,0 +1,181 @@
+Name: §7[§bCrate§7] §9Menu Crate
+Type: MENU_CRATE
+SubType: MYSTERY
+NeedKey: true
+Cooldown: 0
+Item:
+  Material: CHEST:0
+  Display: §6[Crate] §eNew Crate
+  Lore:
+  - §7What's in the crate?
+  Enchants: []
+  OpenDelay: 0
+Key:
+  Material: TRIPWIRE_HOOK:0
+  Display: §6[Key] §eNew Crate
+  Lore: []
+  Enchants: []
+Block:
+  Location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  Pushback:
+    Use: true
+    Modifiers:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  Hologram:
+    Use: false
+    Lines:
+    - §c§lMYSTERY CRATE
+    - §7Get the key at §cwww.synthcraft.com
+Menu:
+  MenuID: example_menu
+  Item:
+    Material: CHEST:0
+    Display: §7[§bCrate§7] §9Menu Crate
+    Lore:
+    - '§7You have: §a%s% key(s)§7!'
+    - '§7Crate cost: §6%cost%$'
+  Cost: 0.0
+  Slot: 22
+Effects:
+  USE:
+    Type: HELIX
+    Particle: CRIT_MAGIC
+    Sound: ENTITY_PLAYER_LEVELUP
+  BLOCK:
+    Type: SIMPLE
+    Particle: FLAME
+    Sound: BLOCK_WATER_AMBIENT
+  OPEN:
+    Type: FIREWORK
+    Particle: FLAME
+    Sound: ENTITY_FIREWORK_BLAST
+Rewards:
+  Broadcast:
+    Use: true
+    Value: '%prefix%Player §6%p §fjust opened %crate% §fand got the reward(s): §6%reward%'
+  Min: 1
+  Max: 1
+  List:
+    '0':
+      chance: 50.0
+      name: §7Rank §fUser
+      item:
+        use: false
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: APPLE
+      cmd:
+        use: true
+        value: pex user %p group set User
+      preview:
+        stack:
+          type: INK_SACK
+          data: 8
+          name: '§7Rank: §fUser'
+          lore:
+          - '§7Chance: §f50%'
+          enchant: false
+    '1':
+      chance: 40.0
+      name: §fRank §dVIP
+      item:
+        use: false
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: APPLE
+      cmd:
+        use: true
+        value: pex user %p group set VIP
+      preview:
+        stack:
+          type: INK_SACK
+          data: 13
+          name: '§7Rank: §dVIP'
+          lore:
+          - '§7Chance: §d40%'
+          enchant: false
+    '2':
+      chance: 30.0
+      name: §fRank §aPremium
+      item:
+        use: false
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: APPLE
+      cmd:
+        use: true
+        value: pex user %p group set Premium
+      preview:
+        stack:
+          type: INK_SACK
+          data: 10
+          name: '§7Rank: §aPremium'
+          lore:
+          - '§7Chance: §a30%'
+          enchant: false
+    '3':
+      chance: 20.0
+      name: §fRank §9Supreme
+      item:
+        use: false
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: APPLE
+      cmd:
+        use: true
+        value: pex user %p group set Supreme
+      preview:
+        stack:
+          type: INK_SACK
+          data: 12
+          name: '§7Rank: §9Supreme'
+          lore:
+          - '§7Chance: §920%'
+          enchant: false
+    '4':
+      chance: 10.0
+      name: §fRank §6Gold
+      item:
+        use: false
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: APPLE
+      cmd:
+        use: true
+        value: pex user %p group set Gold
+      preview:
+        stack:
+          type: INK_SACK
+          data: 14
+          name: '§7Rank: §6Gold'
+          lore:
+          - '§7Chance: §610%'
+          enchant: false
+    '5':
+      chance: 1.0
+      name: '§fRank: §eLord'
+      item:
+        use: false
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: APPLE
+      cmd:
+        use: true
+        value: pex user %p group set Lord
+      preview:
+        stack:
+          type: INK_SACK
+          data: 11
+          name: '§7Rank: §eLord'
+          lore:
+          - '§7Chance: §e1%'
+          enchant: false

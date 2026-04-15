@@ -1,0 +1,43 @@
+#Messages configuration value
+#HEX COLOUR CODES SUPPORTED
+
+no_permission: "%PREFIX%&cYou do not have permission to this command!"
+
+failed_to_load_stats: "%PREFIX%&cAn issue has occurred! Please try again later..."
+
+#/afk command messages
+# Possible plugin placeholders:
+#               %PLAYER% - The player who has gone afk
+player_go_afk: "%PREFIX%&7You have gone AFK!"
+player_go_afk_broadcast: "none"
+player_return_from_afk: "%PREFIX%&7Back from AFK!"
+player_return_from_afk_broadcast: "none"
+
+#The message sent when a player sends a message to a player who is deemed AFK
+# Possible plugin placeholders:
+#               %TARGET_PLAYER% - The player who has gone afk
+target_player_is_afk: "%PREFIX%&7The player &a%TARGET_PLAYER%&7 is currently AFK, so may not see your message!"
+
+#Top 10 playtime command
+unable_to_load_data: "&cThe top 10 playtimes cannot be loaded at this time. Please try again soon!"
+top_10_data: "&c#%NUMBER% &6%NAME% &ahas played for &6%DAYS% day(s), %HOURS% hour(s) and %MINUTES% minute(s)!"
+
+
+#If you've disabled the GUI, then this message will be send went a player does /playtime (or alias)
+# Possible plugin placeholders:
+#               %TIME_PLAYED_DAYS% - Returns the number of days played by the player (integer)
+#               %TIME_PLAYED_HOURS% - Returns the number of hours played by the player (integer 0-24)
+#               %TIME_PLAYED_MINUTES% - Returns the number of minutes played by the player (integer 0-60)
+#               %TIME_PLAYED_SECONDS% - Returns the number of seconds played by the player (integer 0-60)
+#               %TIME_PLAYED_SECONDS_UNFORMATTED% - Returns the number of total seconds played by the user (integer)
+#As well as any placeholder from API
+playtime_message:
+  - "&aYou have played for:"
+  - "&e%TIME_PLAYED_DAYS% &aDays, &e%TIME_PLAYED_HOURS% &aHours, &e%TIME_PLAYED_MINUTES% &aMinutes and"
+  - "&e%TIME_PLAYED_SECONDS%&a seconds"
+playtime_other: "&a%TARGET% has played for &e%TIME_PLAYED_DAYS% &aDays, &e%TIME_PLAYED_HOURS% &aHours, &e%TIME_PLAYED_MINUTES% &aMinutes and &e%TIME_PLAYED_SECONDS%&a seconds" #You can also use %TIME_AFK_SECONDS% for time they have been afk for
+playtime_info:
+  - "&aJetsAntiAFKPro INFO for player &d %TARGET%"
+  - "&bThis player has played for: &d%TIME_PLAYED_DAYS% day(s), %TIME_PLAYED_HOURS% hour(s), %TIME_PLAYED_MINUTES% minutes and %TIME_PLAYED_SECONDS% second(s)"
+  - "&bThis player has an active session for: &d%TIME_PLAYED_DAYS_CURRENT% day(s), %TIME_PLAYED_HOURS_CURRENT% hour(s), %TIME_PLAYED_MINUTES_CURRENT% minutes and %TIME_PLAYED_SECONDS_CURRENT% second(s)"
+  - "&bThis player has been AFK for: &d %TARGET_AFK_TIME% second(s)"

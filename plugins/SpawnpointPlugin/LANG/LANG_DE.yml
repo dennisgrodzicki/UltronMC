@@ -1,0 +1,39 @@
+#/*
+#    Copyright (C) 2021, 2022  Patrick260
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#*/
+
+messages:
+  listeners:
+    onPlayerRespawn:
+      teleportMessage: §cDu bist gestorben und wurdest deswegen zum Spawn teleportiert!
+    onPlayerMove:
+      teleportCanceled: §cDie Teleportation wurde abgebrochen da du dich bewegt hast!
+  commands:
+    general:
+      noPermissions: §cDazu hast du keine Rechte!
+      onlyPlayerCanExecute: §cNur Spieler koennen diesen Command ausfuehren!
+    spawnCommand:
+      successfullyTeleported: §aDu wurdest zum Spawn teleportiert!
+      teleportCountdown: §aDu wirst in §c%countdown% §aSekunden zum Spawn teleportiert!
+      wrongSyntax: §6Falsche Syntax! Bitte benutze §c/spawn §6!
+    setSpawnpointCommand:
+      successfullySetSpawnpointToPlayerPosition: §aDer Spawnpunkt wurde erfolgreich auf deine Position gesetzt!
+      successfullySetSpawnpointToCoordinates: §aDer Spawnpunkt wurde erfolgreich auf die angegebenen Koordinaten gesetzt!
+      consoleSetSpawnpointWithWrongArgs: §6Falsche Syntax! Bitte benutze §c/setspawnpoint <world, x, y, z> (yaw, pitch) §6!
+      failToSetSpawnpointInvalidInput: §cDer Spawnpunkt wurde nicht gesetzt, da die Eingabe ungültig war!
+      failToSetSpawnpointNoSuchWorld: §cDer Spawnpoint wurde nicht gesetzt, da die angegebene Welt nicht existiert!
+    reloadConfigCommand:
+      reloadSuccess: §aDie Config wurde erfolgreich neugeladen!

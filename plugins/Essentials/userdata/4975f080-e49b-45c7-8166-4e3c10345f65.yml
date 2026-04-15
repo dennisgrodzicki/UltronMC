@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 69.112.242.243
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1666749820584
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1666750070870
+  login: 1666749466461
+  kits:
+    partner: 1665615761766
+    ultron-plus: 1666748900197
+    member: 1665446961291
+    iron: 1665448369935
+    diamond: 1665448433229
+    emerald: 1665448482331
+    bedrock: 1665448490627
+    ultron: 1666748789899
+    firstjoin: 1666746585147
+money: '884251010.55'
+logoutlocation:
+  world: f96f4a49-d080-4475-8cf3-5ad45514473d
+  world-name: island_normal_world
+  x: -1205.0318330929906
+  y: 76.41836356206491
+  z: -2406.348616498085
+  yaw: -198.621337890625
+  pitch: 26.421695709228516
+last-account-name: Masshh
+lastlocation:
+  world: 49ed2312-cc54-42c0-8563-4ea965ed4407
+  world-name: world
+  x: 1357.3355086502147
+  y: 60.996470652422516
+  z: -252.47777209233993
+  yaw: 296.37457275390625
+  pitch: 4.421657562255859

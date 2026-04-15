@@ -1,0 +1,39 @@
+#/*
+#    Copyright (C) 2021, 2022  Patrick260
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#*/
+
+messages:
+  listeners:
+    onPlayerRespawn:
+      teleportMessage: §cYou were teleported to the spawn because you died!
+    onPlayerMove:
+      teleportCanceled: §cThe teleportation was canceled because you moved!
+  commands:
+    general:
+      noPermissions: §cYou don't have permissions to do that!
+      onlyPlayerCanExecute: §cOnly players can execute this command!
+    spawnCommand:
+      successfullyTeleported: §aYou were teleported to the spawn!
+      teleportCountdown: §aYou will be teleported to the spawn in §c%countdown% §aseconds!
+      wrongSyntax: §6Wrong Syntax! Please use §c/spawn §6!
+    setSpawnpointCommand:
+      successfullySetSpawnpointToPlayerPosition: §aThe spawnpoint was successfully set to your position!
+      successfullySetSpawnpointToCoordinates: §aThe spawnpoint was successfully set to the given coordinates!
+      consoleSetSpawnpointWithWrongArgs: §6Wrong Syntax! Please use §c/setspawnpoint <world, x, y, z> (yaw, pitch) §6!
+      failToSetSpawnpointInvalidInput: §cThe spawnpoint wasn't set because the given data was invalid!
+      failToSetSpawnpointUnexistingWorld: §cThe spawnpoint wasn't set because the given world don't exists!
+    reloadConfigCommand:
+      reloadSuccess: §aThe config was successfully reloaded!

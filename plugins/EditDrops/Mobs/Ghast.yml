@@ -1,0 +1,148 @@
+inventory:
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS
+    damage: 14
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lNatural Drops§c False
+      lore:
+      - §7Keep natural mob drops ?
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §a§lSave

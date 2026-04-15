@@ -1,0 +1,4 @@
+&3Welcome to &4&lUltronMC, &3{PLAYER}!
+&3Server Store - store.ultronmc.com
+&3Discord - https://discord.gg/pd4V9WeJBK
+&3Players online:&c {ONLINE} 

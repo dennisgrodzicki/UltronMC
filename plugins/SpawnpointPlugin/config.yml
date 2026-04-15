@@ -1,0 +1,87 @@
+#/*
+#    Copyright (C) 2021, 2022  Patrick260
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#*/
+
+# This is the config file for Spawnpoint-Plugin
+# You can find the source code of the plugin on github (https://github.com/Patrick260/Spawnpoint-Plugin)
+
+# In this section are the general plugin settings
+settings:
+
+  # Here you can set the plugin prefix
+  prefix: §7[§2SpawnpointPlugin§7] §f
+
+  # The config option for the plugin language
+  # Supported languages: EN (English), DE (Deutsch)
+  language: EN
+
+  # The config options for commands
+  commands:
+
+    # The config options for /spawn
+    spawn:
+
+      # Here you can set the time how long the teleport delay is (set to 0 to disable)
+      timer: 3
+
+  # Here you can configure if the teleportation should be canceled if the player move
+  cancelTeleportOnMove:
+
+    # Here you can enable / disable the canceling of teleportation on move
+    'on': true
+
+    # Here you can set how many blocks players have to move in a specific direction until the teleport should be canceled
+    minMoved:
+      x: 1
+      y: 2
+      z: 1
+
+  # Here you can enable / disable if players should teleport to the spawn when they join
+  teleportOnJoin: true
+
+  # Here you can enable / disable if players should teleport to the spawn when they die
+  teleportOnDeath: true
+
+  # Here you can enable / disable BStats (https://bstats.org/)
+  # There is no performance penalty associated with having bStats enabled and data sent to bStats is fully anonymous
+  BStatsEnabled: true
+
+# In this section you can edit the permissions
+permissions:
+  commands:
+    admin:
+
+      # The permission for /setspawnpoint <world, x, y, z> (yaw, pitch)
+      setSpawnpoint: spawnpointPlugin.commands.admin.setSpawnpoint
+
+      # The permission for /reloadconfig
+      reloadConfig: spawnpointPlugin.commands.admin.reloadConfig
+
+    # The permission for /spawn
+    spawn:
+      teleport: spawnpointPlugin.commands.spawn.teleport
+
+# In this section are the saved data from the plugin
+data:
+
+  # Here you can set the spawnpoint
+  spawnpoint:
+    world: world
+    x: 1349.562626459546
+    y: 58.0
+    z: -257.38653730720154
+    yaw: 128.36197
+    pitch: 9.937504

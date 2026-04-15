@@ -1,0 +1,9 @@
+# Any changes made to this file while the server is online will be overwritten.
+passivemobs:
+- ENDERMAN
+- IRON_GOLEM
+- SPIDER
+- CREEPER
+- SKELETON
+- BLAZE
+- ZOMBIE

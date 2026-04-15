@@ -1,0 +1,1125 @@
+#File Generated: 20210624-1812 | MCversion: 1.08 | ESGUI ver: 3.3
+#Please check out the wiki for more information about configuring this file
+#@ https://gpplugins.gitbook.io/economyshopgui/file-configuration/shops.yml
+
+#==================== Blocks ====================#
+
+Blocks:
+  1:
+    material: BOOKSHELF
+    buy: 100
+    sell: 30
+  2:
+    material: HAY_BLOCK
+    buy: 50
+    sell: 10
+  3:
+    material: PACKED_ICE
+    buy: 150
+    sell: 15
+  4:
+    material: SLIME_BLOCK
+    buy: 50
+    sell: 10
+  5:
+    material: SNOW_BLOCK
+    buy: 15
+    sell: 3
+  6:
+    material: SOUL_SAND
+    buy: 10
+    sell: 2.5
+  7:
+    material: STONE
+    buy: 10
+    sell: 1
+  8:
+    material: TNT
+    buy: -1
+    sell: 25
+  9:
+    material: GLOWSTONE
+    buy: 30
+    sell: 5
+  10:
+    material: SEA_LANTERN
+    buy: 100
+    sell: 15
+  11:
+    material: ANDESITE
+    buy: 10
+    sell: 1
+  12:
+    material: POLISHED_ANDESITE
+    buy: 15
+    sell: 3
+  13:
+    material: BRICK_SLAB
+    buy: 50
+    sell: 10
+  14:
+    material: BRICK_STAIRS
+    buy: 100
+    sell: 25
+  15:
+    material: BRICKS
+    buy: 150
+    sell: 25
+  16:
+    material: COBBLESTONE
+    buy: 10
+    sell: 1
+  17:
+    material: MOSSY_COBBLESTONE
+    buy: 50
+    sell: 5
+  18:
+    material: DIORITE
+    buy: 10
+    sell: 1
+  19:
+    material: POLISHED_DIORITE
+    buy: 15
+    sell: 3
+  20:
+    material: CLAY
+    buy: 50
+    sell: 10
+  21:
+    material: DIRT
+    buy: 250
+    sell: 50
+  22:
+    material: GRASS_BLOCK
+    buy: 500
+    sell: 150
+  23:
+    material: GRAVEL
+    buy: 15
+    sell: 3
+  24:
+    material: MYCELIUM
+    buy: 80
+    sell: 15
+  25:
+    material: PODZOL
+    buy: 80
+    sell: 15
+  26:
+    material: END_STONE
+    buy: 25
+    sell: 5
+  27:
+    material: GLASS
+    buy: 300
+    sell: 50
+  28:
+    material: GLASS_PANE
+    buy: 150
+    sell: 5
+  29:
+    material: GRANITE
+    buy: 10
+    sell: 1
+  30:
+    material: POLISHED_GRANITE
+    buy: 15
+    sell: 3
+  31:
+    material: NETHERRACK
+    buy: 1
+    sell: -1
+  32:
+    material: NETHER_BRICK_SLAB
+    buy: 30
+    sell: 5
+  33:
+    material: NETHER_BRICK_STAIRS
+    buy: 30
+    sell: 5
+  34:
+    material: NETHER_BRICKS
+    buy: 100
+    sell: 5
+  35:
+    material: OBSIDIAN
+    buy: 500
+    sell: 30
+  36:
+    material: PRISMARINE
+    buy: 50
+    sell: 7.5
+  37:
+    material: PRISMARINE_BRICKS
+    buy: 250
+    sell: 50
+  38:
+    material: DARK_PRISMARINE
+    buy: 50
+    sell: 10
+  39:
+    material: QUARTZ_SLAB
+    buy: 100
+    sell: 20
+  40:
+    material: QUARTZ_STAIRS
+    buy: 150
+    sell: 30
+  41:
+    material: RED_SAND
+    buy: 100
+    sell: 25
+  42:
+    material: SAND
+    buy: 100
+    sell: 25
+  43:
+    material: SANDSTONE
+    buy: 25
+    sell: 3
+  44:
+    material: SANDSTONE_SLAB
+    buy: 25
+    sell: 3
+  45:
+    material: SANDSTONE_STAIRS
+    buy: 25
+    sell: 3
+  46:
+    material: RED_SANDSTONE
+    buy: 25
+    sell: 3
+  47:
+    material: RED_SANDSTONE_SLAB
+    buy: 25
+    sell: 3
+  48:
+    material: RED_SANDSTONE_STAIRS
+    buy: 50
+    sell: 10
+  49:
+    material: SMOOTH_RED_SANDSTONE
+    buy: 50
+    sell: 10
+  50:
+    material: STONE_BRICK_SLAB
+    buy: 10
+    sell: 1
+  51:
+    material: STONE_BRICK_STAIRS
+    buy: 10
+    sell: 1
+  52:
+    material: STONE_BRICKS
+    buy: 50
+    sell: 5
+  53:
+    material: MOSSY_STONE_BRICKS
+    buy: 250
+    sell: 50
+  54:
+    material: TERRACOTTA
+    buy: 25
+    sell: 5
+  55:
+    material: ACACIA_LOG
+    buy: 35
+    sell: 7
+  56:
+    material: ACACIA_PLANKS
+    buy: 5
+    sell: 1
+  57:
+    material: ACACIA_SLAB
+    buy: 1
+    sell: -1
+  58:
+    material: ACACIA_STAIRS
+    buy: 1
+    sell: -1
+  59:
+    material: BIRCH_LOG
+    buy: 35
+    sell: 7
+  60:
+    material: BIRCH_PLANKS
+    buy: 5
+    sell: 1
+  61:
+    material: BIRCH_SLAB
+    buy: 1
+    sell: -1
+  62:
+    material: BIRCH_STAIRS
+    buy: 1
+    sell: -1
+  63:
+    material: DARK_OAK_LOG
+    buy: 35
+    sell: 7
+  64:
+    material: DARK_OAK_PLANKS
+    buy: 5
+    sell: 1
+  65:
+    material: DARK_OAK_SLAB
+    buy: 1
+    sell: -1
+  66:
+    material: DARK_OAK_STAIRS
+    buy: 1
+    sell: -1
+  67:
+    material: JUNGLE_LOG
+    buy: 35
+    sell: 7
+  68:
+    material: JUNGLE_PLANKS
+    buy: 5
+    sell: 1
+  69:
+    material: JUNGLE_SLAB
+    buy: 1
+    sell: -1
+  70:
+    material: JUNGLE_STAIRS
+    buy: 1
+    sell: -1
+  71:
+    material: OAK_LOG
+    buy: 35
+    sell: 7
+  72:
+    material: OAK_PLANKS
+    buy: 5
+    sell: 1
+  73:
+    material: OAK_SLAB
+    buy: 1
+    sell: -1
+  74:
+    material: OAK_STAIRS
+    buy: 1
+    sell: -1
+  75:
+    material: SPRUCE_LOG
+    buy: 35
+    sell: 7
+  76:
+    material: SPRUCE_PLANKS
+    buy: 5
+    sell: 1
+  77:
+    material: SPRUCE_SLAB
+    buy: 1
+    sell: -1
+  78:
+    material: SPRUCE_STAIRS
+    buy: 1
+    sell: -1
+  79:
+    material: BLACK_WOOL
+    buy: 35
+    sell: 7
+  80:
+    material: BLUE_WOOL
+    buy: 35
+    sell: 7
+  81:
+    material: BROWN_WOOL
+    buy: 35
+    sell: 7
+  82:
+    material: CYAN_WOOL
+    buy: 35
+    sell: 7
+  83:
+    material: GRAY_WOOL
+    buy: 35
+    sell: 7
+  84:
+    material: GREEN_WOOL
+    buy: 35
+    sell: 7
+  85:
+    material: LIGHT_BLUE_WOOL
+    buy: 35
+    sell: 7
+  86:
+    material: LIGHT_GRAY_WOOL
+    buy: 35
+    sell: 7
+  87:
+    material: LIME_WOOL
+    buy: 35
+    sell: 7
+  88:
+    material: MAGENTA_WOOL
+    buy: 35
+    sell: 7
+  89:
+    material: ORANGE_WOOL
+    buy: 35
+    sell: 7
+  90:
+    material: PINK_WOOL
+    buy: 35
+    sell: 7
+  91:
+    material: PURPLE_WOOL
+    buy: 35
+    sell: 7
+  92:
+    material: RED_WOOL
+    buy: 35
+    sell: 7
+  93:
+    material: WHITE_WOOL
+    buy: 35
+    sell: 7
+  94:
+    material: YELLOW_WOOL
+    buy: 35
+    sell: 7
+
+#==================== Decoration ====================#
+
+Decoration:
+  1:
+    material: FLOWER_POT
+    buy: 100
+    sell: 15
+  2:
+    material: JACK_O_LANTERN
+    buy: 2
+    sell: 1
+  3:
+    material: ACACIA_LEAVES
+    buy: 3
+    sell: 0.75
+  4:
+    material: BIRCH_LEAVES
+    buy: 3
+    sell: 0.75
+  5:
+    material: DARK_OAK_LEAVES
+    buy: 3
+    sell: 0.75
+  6:
+    material: JUNGLE_LEAVES
+    buy: 3
+    sell: 0.75
+  7:
+    material: OAK_LEAVES
+    buy: 3
+    sell: 0.75
+  8:
+    material: SPRUCE_LEAVES
+    buy: 3
+    sell: 0.75
+  9:
+    material: ACACIA_SAPLING
+    buy: 3
+    sell: 0.75
+  10:
+    material: BIRCH_SAPLING
+    buy: 3
+    sell: 0.75
+  11:
+    material: DARK_OAK_SAPLING
+    buy: 3
+    sell: 0.75
+  12:
+    material: JUNGLE_SAPLING
+    buy: 3
+    sell: 0.75
+  13:
+    material: OAK_SAPLING
+    buy: 3
+    sell: 0.75
+  14:
+    material: SPRUCE_SAPLING
+    buy: 3
+    sell: 0.75
+  15:
+    material: VINE
+    buy: 7
+    sell: 1.75
+
+#==================== Dyes ====================#
+
+Dyes:
+  1:
+    material: CYAN_DYE
+    buy: 5
+    sell: -1
+  2:
+    material: GRAY_DYE
+    buy: 5
+    sell: -1
+  3:
+    material: GREEN_DYE
+    buy: 5
+    sell: -1
+  4:
+    material: LIGHT_BLUE_DYE
+    buy: 5
+    sell: -1
+  5:
+    material: LIGHT_GRAY_DYE
+    buy: 5
+    sell: -1
+  6:
+    material: LIME_DYE
+    buy: 5
+    sell: -1
+  7:
+    material: MAGENTA_DYE
+    buy: 5
+    sell: -1
+  8:
+    material: ORANGE_DYE
+    buy: 5
+    sell: -1
+  9:
+    material: PINK_DYE
+    buy: 5
+    sell: -1
+  10:
+    material: PURPLE_DYE
+    buy: 5
+    sell: -1
+  11:
+    material: RED_DYE
+    buy: 5
+    sell: -1
+  12:
+    material: YELLOW_DYE
+    buy: 5
+    sell: -1
+  13:
+    material: AZURE_BLUET
+    buy: 5
+    sell: -1
+  14:
+    material: BLUE_ORCHID
+    buy: 5
+    sell: -1
+  15:
+    material: RED_TULIP
+    buy: 5
+    sell: -1
+  16:
+    material: SUNFLOWER
+    buy: 5
+    sell: -1
+  17:
+    material: INK_SAC
+    buy: 5
+    sell: -1
+
+#==================== Enchanting ====================#
+
+#==================== Farming ====================#
+
+Farming:
+  1:
+    material: BROWN_MUSHROOM
+    buy: 2
+    sell: 0.5
+  2:
+    material: CACTUS
+    buy: 25
+    sell: 8
+  3:
+    material: CARROT
+    buy: 5
+    sell: 1.25
+  4:
+    material: COCOA_BEANS
+    buy: 6
+    sell: 1.5
+  5:
+    material: EGG
+    buy: 5
+    sell: 1.25
+  6:
+    material: LEATHER
+    buy: 30
+    sell: 10
+  7:
+    material: MELON_SEEDS
+    buy: 1
+    sell: -1
+  8:
+    material: MELON_SLICE
+    buy: 1
+    sell: 0.25
+  9:
+    material: NETHER_WART
+    buy: 50
+    sell: 15
+  10:
+    material: POTATO
+    buy: 5
+    sell: 1.25
+  11:
+    material: PUMPKIN
+    buy: 5
+    sell: 1.25
+  12:
+    material: PUMPKIN_SEEDS
+    buy: 3
+    sell: -1
+  13:
+    material: RED_MUSHROOM
+    buy: 2
+    sell: 0.5
+  14:
+    material: SUGAR_CANE
+    buy: 25
+    sell: 8
+  15:
+    material: WHEAT
+    buy: 5
+    sell: 3
+  16:
+    material: WHEAT_SEEDS
+    buy: 3
+    sell: -1
+
+#==================== Food ====================#
+
+Food:
+  1:
+    material: APPLE
+    buy: 10
+    sell: -1
+  2:
+    material: BREAD
+    buy: 10
+    sell: -1
+  3:
+    material: CAKE
+    buy: 2500
+    sell: -1
+  4:
+    material: COOKIE
+    buy: 7.5
+    sell: -1
+  5:
+    material: BAKED_POTATO
+    buy: 5
+    sell: -1
+  6:
+    material: COOKED_BEEF
+    buy: 5
+    sell: -1
+  7:
+    material: COOKED_CHICKEN
+    buy: 5
+    sell: -1
+  8:
+    material: COOKED_MUTTON
+    buy: 5
+    sell: -1
+  9:
+    material: COOKED_PORKCHOP
+    buy: 5
+    sell: -1
+  10:
+    material: COOKED_RABBIT
+    buy: 5
+    sell: -1
+  11:
+    material: BEEF
+    buy: 3
+    sell: -1
+  12:
+    material: CHICKEN
+    buy: 3
+    sell: -1
+  13:
+    material: MUTTON
+    buy: 3
+    sell: -1
+  14:
+    material: PORKCHOP
+    buy: 3
+    sell: -1
+  15:
+    material: RABBIT
+    buy: 3
+    sell: -1
+
+#==================== Mobs ====================#
+
+Mobs:
+  1:
+    material: ARROW
+    buy: 5
+    sell: 1
+  3:
+    material: BLAZE_ROD
+    buy: 25
+    sell: 15
+  4:
+    material: BONE
+    buy: 6
+    sell: 1.5
+  5:
+    material: FEATHER
+    buy: 6
+    sell: 1.5
+  6:
+    material: FERMENTED_SPIDER_EYE
+    buy: 10
+    sell: 5
+  7:
+    material: GHAST_TEAR
+    buy: 40
+    sell: 10
+  8:
+    material: TNT
+    buy: -1
+    sell: 25
+  9:
+    material: MAGMA_CREAM
+    buy: 10
+    sell: -1
+  11:
+    material: ROTTEN_FLESH
+    buy: 5
+    sell: 1
+  12:
+    material: SPIDER_EYE
+    buy: 8
+    sell: 2
+  13:
+    material: STRING
+    buy: 5
+    sell: 1
+  14:
+    material: ENDER_PEARL
+    buy: 50
+    sell: 10
+
+#==================== Music ====================#
+
+#==================== Ores ====================#
+
+Ores:
+  1:
+    material: COAL
+    buy: 25
+    sell: 5
+  2:
+    material: COAL_BLOCK
+    buy: 250
+    sell: 45
+  3:
+    material: DIAMOND
+    buy: 1000
+    sell: 75
+  4:
+    material: DIAMOND_BLOCK
+    buy: 10000
+    sell: 675
+  5:
+    material: EMERALD
+    buy: 1500
+    sell: 150
+  6:
+    material: EMERALD_BLOCK
+    buy: 15000
+    sell: 1350
+  7:
+    material: GOLD_BLOCK
+    buy: 750
+    sell: 450
+  8:
+    material: GOLD_INGOT
+    buy: 75
+    sell: 50
+  9:
+    material: IRON_BLOCK
+    buy: 750
+    sell: 450
+  10:
+    material: IRON_INGOT
+    buy: 75
+    sell: 50
+  11:
+    material: LAPIS_BLOCK
+    buy: 250
+    sell: 45
+  12:
+    material: LAPIS_LAZULI
+    buy: 25
+    sell: 5
+  13:
+    material: REDSTONE
+    buy: 5
+    sell: 1
+  14:
+    material: REDSTONE_BLOCK
+    buy: 50
+    sell: 9
+
+#==================== Others ====================#
+
+Others:
+  1:
+    material: ANVIL
+    buy: 1500
+    sell: 100
+  2:
+    material: CARROT_ON_A_STICK
+    buy: 100
+    sell: 1
+  3:
+    material: COBWEB
+    buy: 40
+    sell: 10
+  4:
+    material: ENDER_CHEST
+    buy: 500
+    sell: -1
+  5:
+    material: ENDER_EYE
+    buy: 10
+    sell: -1
+  7:
+    material: GLOWSTONE_DUST
+    buy: 15
+    sell: 1.75
+  8:
+    material: LAVA_BUCKET
+    buy: 150
+    sell: 10
+  9:
+    material: LEAD
+    buy: 2500
+    sell: 5
+  10:
+    material: LILY_PAD
+    buy: 30
+    sell: 7
+  11:
+    material: MAP
+    buy: 100
+    sell: 25
+  12:
+    material: NAME_TAG
+    buy: 100
+    sell: 25
+  13:
+    material: RED_BED
+    buy: 100
+    sell: -1
+  14:
+    material: SADDLE
+    buy: 60
+    sell: 15
+  15:
+    material: SLIME_BALL
+    buy: 5
+    sell: 1
+  16:
+    material: SNOW
+    buy: 12
+    sell: -1
+  17:
+    material: SNOWBALL
+    buy: 3
+    sell: 0.75
+  18:
+    material: SPONGE
+    buy: 500
+    sell: -1
+  19:
+    material: WATER_BUCKET
+    buy: 150
+    sell: 10
+  20:
+    material: BEACON
+    buy: 50000
+    sell: 10000
+
+#==================== Potions ====================#
+
+#Potions:
+
+
+#==================== Redstone ====================#
+
+Redstone:
+  1:
+    material: CAULDRON
+    buy: 50
+    sell: -1
+  2:
+    material: DAYLIGHT_DETECTOR
+    buy: 125
+    sell: -1
+  3:
+    material: HOPPER
+    buy: 25000
+    sell: -1
+  4:
+    material: JUKEBOX
+    buy: 300
+    sell: -1
+  5:
+    material: LEVER
+    buy: 1
+    sell: -1
+  6:
+    material: NOTE_BLOCK
+    buy: 15
+    sell: -1
+  7:
+    material: REDSTONE_LAMP
+    buy: 50
+    sell: -1
+  8:
+    material: REDSTONE_TORCH
+    buy: 3
+    sell: -1
+  9:
+    material: TRIPWIRE_HOOK
+    buy: 10
+    sell: -1
+  10:
+    material: COMPARATOR
+    buy: 55
+    sell: -1
+  11:
+    material: REPEATER
+    buy: 20
+    sell: -1
+  12:
+    material: OAK_BUTTON
+    buy: 1
+    sell: -1
+  13:
+    material: STONE_BUTTON
+    buy: 1
+    sell: -1
+
+
+
+
+#==================== SpawnEggs ====================#
+
+#SpawnEggs:
+
+
+#==================== Spawners ====================#
+
+Spawners:
+  1:
+    material: SPAWNER
+    spawnertype: BLAZE
+    displayname: '&c[&bBlaze Spawner&c]'
+    name: '&c[&bBlaze Spawner&c]'
+    buy: 565000
+    sell: -1
+  2:
+    material: SPAWNER
+    spawnertype: CHICKEN
+    displayname: '&c[&bChicken Spawner&c]'
+    name: '&c[&bChicken Spawner&c]'
+    buy: 15000
+    sell: -1
+  3:
+    material: SPAWNER
+    spawnertype: COW
+    displayname: '&c[&bCow Spawner&c]'
+    name: '&c[&bCow Spawner&c]'
+    buy: 100000
+    sell: -1
+  4:
+    material: SPAWNER
+    spawnertype: CREEPER
+    displayname: '&c[&bCreeper Spawner&c]'
+    name: '&c[&bCreeper Spawner&c]'
+    buy: 750000
+    sell: -1
+  5:
+    material: SPAWNER
+    spawnertype: ENDERMAN
+    displayname: '&c[&bEnderman Spawner&c]'
+    name: '&c[&bEnderman Spawner&c]'
+    buy: 325000
+    sell: -1
+  7:
+    material: SPAWNER
+    spawnertype: IRON_GOLEM
+    displayname: '&c[&bIron Golem Spawner&c]'
+    name: '&c[&bIron Golem Spawner&c]'
+    buy: 1565000
+    sell: -1
+  8:
+    material: SPAWNER
+    spawnertype: MUSHROOM_COW
+    displayname: '&c[&bMushroom Cow Spawner&c]'
+    name: '&c[&bMushroom Cow Spawner&c]'
+    buy: 456000
+    sell: -1
+  9:
+    material: SPAWNER
+    spawnertype: SHEEP
+    displayname: '&c[&bSheep Spawner&c]'
+    name: '&c[&bSheep Spawner&c]'
+    buy: 36000
+    sell: -1
+  10:
+    material: SPAWNER
+    spawnertype: SKELETON
+    displayname: '&c[&bSkeleton Spawner&c]'
+    name: '&c[&bSkeleton Spawner&c]'
+    buy: 125000
+    sell: -1
+  11:
+    material: SPAWNER
+    spawnertype: SPIDER
+    displayname: '&c[&bSpider Spawner&c]'
+    name: '&c[&bSpider Spawner&c]'
+    buy: 45000
+    sell: -1
+  12:
+    material: SPAWNER
+    spawnertype: ZOMBIE
+    displayname: '&c[&bZombie Spawner&c]'
+    name: '&c[&bZombie Spawner&c]'
+    buy: 120000
+    sell: -1
+  13:
+    material: SPAWNER
+    spawnertype: MAGMA_CUBE
+    displayname: '&c[&bMagma Cube Spawner&c]'
+    name: '&c[&bMagma Cube Spawner&c]'
+    buy: 1104000
+    sell: -1
+  14:
+    material: SPAWNER
+    spawnertype: GHAST
+    displayname: '&c[&bGhast Spawner&c]'
+    name: '&c[&bGhast Spawner&c]'
+    buy: 2340500
+    sell: -1
+  15:
+    material: SPAWNER
+    spawnertype: VILLAGER
+    displayname: '&c[&bVillager Spawner&c]'
+    name: '&c[&bVillager Spawner&c]'
+    buy: 3550000
+    sell: -1
+Enchanting:
+  1:
+    material: STICK
+    name: '&c&lPower stick v2'
+    displayname: '&c&lPower stick v2'
+    lore:
+    - '&4This example item was added to the shop'
+    - '&4because the shops.yml did not contain section Enchanting.'
+    buy: 1234
+    sell: 123
+    enchantments:
+    - 'KNOCKBACK:2'
+    - 'SHARPNESS:5'
+    - 'FIRE_ASPECT:5'
+Music:
+  1:
+    material: STICK
+    name: '&c&lPower stick v2'
+    displayname: '&c&lPower stick v2'
+    lore:
+    - '&4This example item was added to the shop'
+    - '&4because the shops.yml did not contain section Music.'
+    buy: 1234
+    sell: 123
+    enchantments:
+    - 'KNOCKBACK:2'
+    - 'SHARPNESS:5'
+    - 'FIRE_ASPECT:5'
+Miscellaneous:
+  1:
+    material: STICK
+    name: '&c&lPower stick v2'
+    displayname: '&c&lPower stick v2'
+    lore:
+    - '&4This example item was added to the shop'
+    - '&4because the shops.yml did not contain section Miscellaneous.'
+    buy: 1234
+    sell: 123
+    enchantments:
+    - 'KNOCKBACK:2'
+    - 'SHARPNESS:5'
+    - 'FIRE_ASPECT:5'
+Potions:
+  1:
+    material: STICK
+    name: '&c&lPower stick v2'
+    displayname: '&c&lPower stick v2'
+    lore:
+    - '&4This example item was added to the shop'
+    - '&4because the shops.yml did not contain section Potions.'
+    buy: 1234
+    sell: 123
+    enchantments:
+    - 'KNOCKBACK:2'
+    - 'SHARPNESS:5'
+    - 'FIRE_ASPECT:5'
+Workstations:
+  1:
+    material: STICK
+    name: '&c&lPower stick v2'
+    displayname: '&c&lPower stick v2'
+    lore:
+    - '&4This example item was added to the shop'
+    - '&4because the shops.yml did not contain section Workstations.'
+    buy: 1234
+    sell: 123
+    enchantments:
+    - 'KNOCKBACK:2'
+    - 'SHARPNESS:5'
+    - 'FIRE_ASPECT:5'
+SpawnEggs:
+  1:
+    material: STICK
+    name: '&c&lPower stick v2'
+    displayname: '&c&lPower stick v2'
+    lore:
+    - '&4This example item was added to the shop'
+    - '&4because the shops.yml did not contain section SpawnEggs.'
+    buy: 1234
+    sell: 123
+    enchantments:
+    - 'KNOCKBACK:2'
+    - 'SHARPNESS:5'
+    - 'FIRE_ASPECT:5'
+Z_EverythingElse:
+  1:
+    material: STICK
+    name: '&c&lPower stick v2'
+    displayname: '&c&lPower stick v2'
+    lore:
+    - '&4This example item was added to the shop'
+    - '&4because the shops.yml did not contain section Z_EverythingElse.'
+    buy: 1234
+    sell: 123
+    enchantments:
+    - 'KNOCKBACK:2'
+    - 'SHARPNESS:5'
+    - 'FIRE_ASPECT:5'
+   
+
+#==================== Workstations ====================#
+
+ #Workstations:
+
+
+#==================== Z_EverythingElse ====================#
+

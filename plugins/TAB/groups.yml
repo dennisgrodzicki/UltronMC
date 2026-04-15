@@ -1,0 +1,70 @@
+Owner:
+  tabprefix: "&8[&4Owner&8] &4"
+  tagprefix: "&8[&4Owner&8] &4"
+Manager:
+  tabprefix: "&8[&bManager&8] &b"
+  tagprefix: "&8[&bManager&8] &b"
+Plat-Admin:
+  tabprefix: "&8[&4Plat. Admin&8] &4"
+  tagprefix: "&8[&4Admin&8] &4"
+Sr-Admin:
+  tabprefix: "&8[&4Sr. Admin&8] &4"
+  tagprefix: "&8[&4Admin&8] &4"
+Admin:
+  tabprefix: "&8[&cAdmin&8] &c"
+  tagprefix: "&8[&cAdmin&8] &c"
+Mod-plus:
+  tabprefix: "&8[&5Mod+&8] &5"
+  tagprefix: "&8[&5Mod+&8] &5"
+Mod:
+  tabprefix: "&8[&9Mod&8] &9"
+  tagprefix: "&8[&9Mod&8] &9"
+Helper:
+  tabprefix: "&8[&eHelper&8] &e"
+  tagprefix: "&8[&eHelper&8] &e"
+Partner:
+  tabprefix: "&8[&dPartner&8] &d"
+  tagprefix: "&8[&dPartner&8] &d"
+Ultron-Plus:
+  tabprefix: "&8[&4Ultron&6&l+&r&8] &4"
+  tagprefix: "&8[&4Ultron&8] &4"
+Ultron:
+  tabprefix: "&8[&4Ultron&8] &4"
+  tagprefix: "&8[&4Ultron&8] &4"
+Bedrock:
+  tabprefix: "&8[&8Bedrock&8] &8"
+  tagprefix: "&8[&8Bedrock&8] &8"
+Emerald:
+  tabprefix: "&8[&aEmerald&8] &a"
+  tagprefix: "&8[&aEmerald&8] &a"
+Diamond:
+  tabprefix: "&8[&bDiamond&8] &b"
+  tagprefix: "&8[&bDiamond&8] &b"
+Iron:
+  tabprefix: "&8[&7Iron&8] &7"
+  tagprefix: "&8[&7Iron&8] &7"
+Default:
+  tabprefix: "&8[&7Member&8] &7"
+  tagprefix: "&8[&7Member&8] &7"
+
+
+example_group:
+  header:
+    - "This is an example of per-group header/footer"
+  footer:
+    - "applied to a group"
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "%vault-prefix%"
+  tagprefix: "%vault-prefix%"
+  customtabname: "%essentials_nickname%"
+  customtagname: "%essentials_nickname%" # don't forget to enable unlimited nametag mode to make this one work
+  tabsuffix: "%vault-suffix%%afk%"
+  tagsuffix: "%vault-suffix%%afk%"
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

@@ -1,0 +1,138 @@
+# Determines how much items are worth on the server.
+# This can be set in this file, or by running the /setworth command.
+worth:
+
+  # Items not listed in this file will not be sellable on the server
+  # Setting the worth to 0 will sell items for free, delete the item or set to -1 to disable.
+
+  # This will set the worth of all logs to '2'
+  log: 7.0  
+
+  # This will work similar to the above syntax
+  wool:
+    '0': 7
+    
+  # This will only allow selling leaves with datavalue '0' and '1'
+  leaves: 
+    '0': 1.0
+    '1': 1.0
+    
+  # This will allow the selling of all, but sells '0' slightly cheaper  
+  sapling:
+    '0': 0.75  
+    '*': 0.75
+
+  planks:
+    '0': 1.0
+    '*': 1.0  
+
+  log2: 7.0
+    
+
+
+
+  bookshelf: 30.0
+  haybale: 10.0
+  packedice: 15.0
+  slimeblock: 10.0
+  snow: 3.0
+  soulsand: 2.50
+  stone: 1.0
+  TNT: 25.0
+  glowstone: 5.0
+  sealantern: 15.0
+  andesite: 1.0
+  polishedandesite: 3.0
+  bricksslab: 10.0
+  brickstairs: 25.0
+  bircks: 25.0
+  cobblestone: 1.0
+  mossstone: 5.0
+  diorite: 1.0
+  polisged diorite: 3.0
+  clay: 10.0
+  dirt: 50.0
+  grassblock: 150.0
+  gravel: 3.0
+  mycelium: 15.0
+  podzol: 15.0
+  endstone: 5.0
+  glass: 50.0
+  glasspane: 5.0
+  gramite: 1.0
+  polishedgranite: 3.0
+  netherrack: 1.0
+  netherbrickslab: 5.0
+  netherbrickstairs: 5.0
+  netherbrick: 5.0
+  obsidian: 30.0
+  prismarine: 7.50
+  darkprismarine: 50.0
+  prismarinebricks: 10.0
+  quartzslab: 20.0
+  quartzstairs: 30.0
+  redsand: 25.0
+  sand: 25.0
+  sandstone: 3.0
+  sandstoneslab: 3.0
+  sandstonestairs: 3.0
+  redsandstone: 3.0
+  redsandstoneslab: 3.0
+  redsandstonestairs: 10.0
+  smoothredsandstone: 10.0
+  stonebrickstairs: 1.0
+  stonedricks: 5.0
+  mossystonebricks: 50.0
+  whitestainedclay: 5.0
+  acaciawoodplanks: 1.0
+  acaciawoodslab: 1.0
+  acaciawoodstairs: 1.0
+  birchwoodplanks: 1.0
+  birchwoodslab: 1.0
+  birchwoodstairs: 1.0
+  darkoakwoodplanks: 1.0
+  junglewoodplanks: 1.0
+  oakwoodplanks: 1.0
+  sprucewoodplanks: 1.0
+  mushroom: 0.50
+  cactus: 8.0
+  carrot: 1.25
+  cocoabeans: 1.50
+  egg: 1.25
+  leather: 10.0
+  melon: 0.25
+  0372: 15.0
+  potato: 1.25
+  pumpkin: 1.25
+  sugarcanes: 8.0
+  wheat: 3.0
+  arrow: 1.0
+  blazerod: 15.0
+  bone: 1.50
+  feather: 1.50
+  fermentedspidereye: 5.0
+  ghasttear: 10.0
+  rottenflash: 1.0
+  spidereye: 2.0
+  string: 1.0
+  enderpearl: 10.0
+  coal: 5.0
+  diamond: 75.0
+  emerald: 150.0
+  goldingot: 50.0
+  ironingot: 50.0
+  lapislazuli: 5.0
+  redstone: 1.0
+  coalblock: 45.0
+  diamondblock: 675.0
+  emeraldblock: 1350.0
+  goldblock: 450.0
+  ironblock: 450.0
+  lapisblock: 45.0
+  blockofredstone: 9.0
+  flowerpot: 15.0
+  jackolantern: 1.0
+  vines: 1.75
+  
+
+

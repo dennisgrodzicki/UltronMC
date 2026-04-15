@@ -1,0 +1,64 @@
+holograms:
+  welcome:
+    location: world;1346.2983464800618;61.234695535999364;-260.51032962661935;12.187467;133.91206
+    lines:
+    - "\xc2\xa77Welcome to \xc2\xa74\xc2\xa7lUltronMC\xc2\xa7r\xc2\xa77!"
+    - "\xc2\xa77Use \xc2\xa78/is create\xc2\xa77 to create an island"
+    - "\xc2\xa77Use \xc2\xa78/is challenge \xc2\xa77 to help you progress"
+    - "\xc2\xa77Dont forget to \xc2\xa7a/vote"
+  legcrate:
+    location: world;1618.577355874679;157.98717812152321;-453.27411537266977;26.94469;80.02232
+    lines:
+    - "\xc2\xa76\xc2\xa7lLegendary Crate"
+    - "\xc2\xa78Left Click to Preview"
+    - "\xc2\xa78Right Click to Open"
+  rarecrate:
+    location: world;1618.577355874679;157.98717812152321;-453.27411537266977;26.94469;80.02232
+    lines:
+    - "\xc2\xa79&lRare Crate"
+    - "\xc2\xa78Left Click to Preview"
+    - "\xc2\xa78Right Click to Open"
+  commoncrate:
+    location: world;1618.577355874679;157.98717812152321;-453.27411537266977;26.94469;80.02232
+    lines:
+    - "\xc2\xa77&lCommon Crate"
+    - "\xc2\xa78Left Click to Preview"
+    - "\xc2\xa78Right Click to Open"
+  votecrate:
+    location: world;1618.577355874679;157.98717812152321;-453.27411537266977;26.94469;80.02232
+    lines:
+    - "\xc2\xa7a&lVote Crate"
+    - "\xc2\xa78Left Click to Preview"
+    - "\xc2\xa78Right Click to Open"
+  enchant:
+    location: world;1229.9002707828079;67.20000004768373;-351.98760299178207;7.9819336;-89.70203
+    lines:
+    - "\xc2\xa7a\xc2\xa7lEnchant Information"
+    - "\xc2\xa77Use /enchanter to get enchant books"
+    - "\xc2\xa77Use /tinkerer to help gain exp/dust"
+    - "\xc2\xa77Use /enchant {enchant-name} to learn more"
+    - "\xc2\xa77We have \xc2\xa7a35+\xc2\xa77 enchants!"
+    - "\xc2\xa77Note: Custom Enchants do not work with Custom Mob Drops"
+    - "\xc2\xa77Best of Luck!"
+  payouts:
+    location: world;1236.959998913182;67.20000004768373;-359.10127082869144;33.84815;359.34213
+    lines:
+    - "\xc2\xa7b\xc2\xa7lEnd of the Map Rewards"
+    - "\xc2\xa77All Placements will be taken from /is top level"
+    - "\xc2\xa771st Place - $50 \xc2\xa7b\xc2\xa7lPayPal\xc2\xa7r\xc2\xa77 and a $200\
+      \ \xc2\xa72BuyCraft Voucher\xc2\xa77!"
+    - "\xc2\xa772nd Place - $25 \xc2\xa7b\xc2\xa7lPayPal\xc2\xa7r\xc2\xa77 and a $100\
+      \ \xc2\xa72BuyCraft Voucher\xc2\xa77!"
+    - "\xc2\xa773nd Place - $15 \xc2\xa7b\xc2\xa7lPayPal\xc2\xa7r\xc2\xa77 and a $50\
+      \ \xc2\xa72BuyCraft Voucher\xc2\xa77!"
+    - "\xc2\xa774th-5th Place - $25 \xc2\xa72BuyCraft Voucher\xc2\xa77!"
+    - "\xc2\xa776th-10th Place - $15 \xc2\xa72BuyCraft Voucher\xc2\xa77!"
+  generator:
+    location: world;1231.6654937687333;63.621998167171185;-263.67612221941675;0.47900468;-285.77734
+    lines:
+    - "\xc2\xa79This is how to make a Cobblestone Generator!"
+  vote:
+    location: world;1334.586831369405;57.875;-280.59717650526244;55.02314;3.0426025
+    lines:
+    - "\xc2\xa7aVote"
+    - "\xc2\xa7cCrate Is Currently Disabled"

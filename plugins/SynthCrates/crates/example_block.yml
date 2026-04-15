@@ -1,0 +1,246 @@
+Name: §7[§2Crate§7] §aBlock Crate
+Type: BLOCK_CRATE
+SubType: MYSTERY
+NeedKey: true
+Cooldown: 30
+Item:
+  Material: CHEST:0
+  Display: §6[Crate] §eNew Crate
+  Lore:
+  - §7What's in the crate?
+  Enchants: []
+  OpenDelay: 0
+Key:
+  Material: TRIPWIRE_HOOK:0
+  Display: §7[§2Key§7] §aBlock Crate
+  Lore:
+  - §7This key opens a §aBlock Crate§7.
+  Enchants:
+  - LOOT_BONUS_BLOCKS:10
+Block:
+  Location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  Pushback:
+    Use: true
+    Modifiers:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  Hologram:
+    Use: false
+    Lines:
+    - §c§lMYSTERY CRATE
+    - §7Get the key at §cwww.synthcraft.com
+Menu:
+  MenuID: none
+  Item:
+    Material: CHEST:0
+    Display: §d[Crate] §5New Crate
+    Lore:
+    - '§7You have: §a%s% key(s)§7!'
+    - '§7Crate cost: §6%cost%$'
+  Cost: 0.0
+  Slot: 10
+Effects:
+  USE:
+    Type: HELIX
+    Particle: CRIT_MAGIC
+    Sound: ENTITY_PLAYER_LEVELUP
+  BLOCK:
+    Type: SIMPLE
+    Particle: FLAME
+    Sound: BLOCK_WATER_AMBIENT
+  OPEN:
+    Type: FIREWORK
+    Particle: FLAME
+    Sound: ENTITY_FIREWORK_BLAST
+Rewards:
+  Broadcast:
+    Use: true
+    Value: '%prefix%Player §6%p §fjust opened %crate% §fand got the reward(s): §6%reward%'
+  Min: 1
+  Max: 3
+  List:
+    '0':
+      chance: 10.0
+      name: §fMob Spawner
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: MOB_SPAWNER
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: MOB_SPAWNER
+          data: 0
+          name: §cMob Spawner
+          lore:
+          - '§7Chance: §c10%'
+          enchant: false
+    '1':
+      chance: 20.0
+      name: §bDiamonds
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND
+          amount: 10
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: DIAMOND
+          data: 0
+          name: §bDiamond (x10)
+          lore:
+          - '§7Chance: §b20%'
+          enchant: false
+    '2':
+      chance: 25.0
+      name: §e(EXP) 30 Levels
+      item:
+        use: false
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: APPLE
+      cmd:
+        use: true
+        value: exp give %p 30l
+      preview:
+        stack:
+          type: EXP_BOTTLE
+          data: 0
+          name: §e30 Exp Levels
+          lore:
+          - '§7Chance: §e25%'
+          enchant: false
+    '3':
+      chance: 15.0
+      name: §a5000$
+      item:
+        use: false
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: APPLE
+      cmd:
+        use: true
+        value: eco give %p 500
+      preview:
+        stack:
+          type: EMPTY_MAP
+          data: 0
+          name: §65000$
+          lore:
+          - '§7Chance: §615%'
+          enchant: false
+    '4':
+      chance: 40.0
+      name: §bBeacon
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: BEACON
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: BEACON
+          data: 0
+          name: §bBeacon
+          lore:
+          - '§7Chance: §b40%'
+          enchant: false
+    '5':
+      chance: 50.0
+      name: §264x Mossy Cobblestone
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: MOSSY_COBBLESTONE
+          amount: 64
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: MOSSY_COBBLESTONE
+          data: 0
+          name: §2Mossy Cobblestone (x64)
+          lore:
+          - '§7Chance: §250%'
+          enchant: false
+    '6':
+      chance: 50.0
+      name: §932x Ice
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: ICE
+          amount: 32
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: ICE
+          data: 0
+          name: §9Ice (x32)
+          lore:
+          - '§7Chance: §950%'
+          enchant: false
+    '7':
+      chance: 50.0
+      name: §a10x Melon Block
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: MELON_BLOCK
+          amount: 10
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: MELON_BLOCK
+          data: 0
+          name: §aMelon Block (x10)
+          lore:
+          - '§7Chance: §a50%'
+          enchant: false
+    '8':
+      chance: 15.0
+      name: §d16x Golden Apple
+      item:
+        use: true
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLDEN_APPLE
+          damage: 1
+          amount: 16
+      cmd:
+        use: false
+        value: eco give %p 500
+      preview:
+        stack:
+          type: GOLDEN_APPLE
+          data: 0
+          name: §dGolden Apple (x16)
+          lore:
+          - '§7Chance: §d15%'
+          enchant: true

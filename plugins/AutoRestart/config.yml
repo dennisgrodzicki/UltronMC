@@ -1,0 +1,22 @@
+# Hi, thanks for downloading best AutoRestart plugin!
+# That's a simple plugin who execute command "stop"
+# at a specific time.
+# Support: discord.me/terrorgames
+# Server: Play.TerrorGames.Org
+
+
+##Here you can set at what time the server will restart.
+time: "06:00"
+
+##Here you can set the messages, or you can enable/disable it.
+Message:
+  enable: true
+  10min: "&4&lUltronMC &8>> &aRestart in 10 minutes !"
+  5min: "&4&lUltronMC &8>> &aRestart in 5 minutes !"
+  1min: "&4&lUltronMC &8>> &aRestart in 1 minutes !"
+  30sec: "&4&lUltronMC &8>> &aRestart in 30 seconds !"
+  sec: "&4&lUltronMC &8>> &aRestart in {SEC} seconds !"
+  final: "&4&lUltronMC &8>> &a Restart !"
+
+##Here you can set your permission to user /autorestart command.
+permission: "autorestart.use"

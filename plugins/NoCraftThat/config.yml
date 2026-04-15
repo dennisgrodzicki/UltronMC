@@ -1,0 +1,37 @@
+# +------------------------------------------------------+ #
+# |--------[ Designed and Developed by MatissPL]---------| #
+# +------------------------------------------------------+ #
+Version: 3.6
+
+#           This is Banned item ID only id is working
+#   Im am trying to make so id : data works but it isn't working
+#                  Add how much items you like
+#           but don't use item:1 it will make error
+Items:
+- 154
+- 
+- 
+#set up a sound of your 1.8 or 1.9 mc 
+# if there is an error please check if that sound dose exist in 1.9
+PlaySound: true
+NCT_NO_Sound: 'EXPLODE'
+#set up a partical of your 1.8 or 1.9 mc 
+# if there is an error please check if that partical dose exist in 1.9
+NoCraftingParticleEnable: true
+NoCraftingParticle: 'FLAME'
+#   And this is DisableThis message, if you try Craft That
+#            it will show in chat whit a sound
+Message: true
+Messages:
+    - '------------------------------------------'
+    - '&b&lThis Item is not craftable!'
+    - '&b&lGo to /shop to buy it!'
+    - '&7&l%player%'
+    - '------------------------------------------'
+# And this is NoCraftThat massage if you try Craft That
+# And this is NoCraftThat command masages added in 3.2
+Reload_Permision: '&cYou can not use NCTreload command!'
+Reload_Complete: '&aReload Complete'
+Help_Permision: '&cYou can not use NCThelp command'
+# Disable Item craft whit True / False added in 3.5
+GodApple: true
