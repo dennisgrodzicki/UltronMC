@@ -1,0 +1,34 @@
+# World data (large binary files, not useful for portfolio)
+world/
+world_nether/
+world_the_end/
+island_normal_world/
+island_nether_world/
+island_end_world/
+
+# Server JAR (large binary, download separately)
+*.jar
+
+# Cache and logs
+cache/
+logs/
+
+# Player-specific / private data
+banned-ips.json
+banned-players.json
+usercache.json
+whitelist.json
+ops.json
+
+# Plugin runtime data (databases, player saves)
+plugins/LuckPerms/luckperms-h2.mv.db
+plugins/LuckPerms/luckperms-h2.trace.db
+plugins/CoreProtect/database.db
+plugins/LiteBans/*.db
+plugins/*/playerdata/
+plugins/*/data/
+plugins/*/cache/
+plugins/bStats/
+
+# Junk
+"New Text Document.txt"
